@@ -8,12 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate (4<sup>th</sup> / 5 year) in [Peking University](https://www.pku.edu.cn), majoring in Data Science and Big Data Technology (Math + Computer Science), while learning many core courses in other professions. I am fortunate to research in Professor [Liwei Wang](http://www.liweiwang-pku.com/)'s group. My research interest lies in many fields, including foundation model, theory in machine learning and out-of-distribution learning.
+I am a senior undergraduate (4<sup>th</sup> / 5 year) in [Peking University](https://www.pku.edu.cn), majoring in Data Science (Math + Computer Science). I am fortunate to research in Professor [Liwei Wang](http://www.liweiwang-pku.com/)'s group. My research interest lies in many fields, including foundation model, theory in deep learning and reinforcement, out-of-distribution learning and AI + Science.
 <br/>
-If you are interested, please feel free to contact me!
+If you are interested in working together, please feel free to contact me!
+
+News
+======
+I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year) thanks to the Intelligent Campus Charity Entrepreneurship Program I lead.
 
 Publications
 ======
+- **(Anonymous Submission to ICML 2022)**
+  <br/>
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
   <br/>
   _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
@@ -29,7 +35,12 @@ Research & Intern Experiences
   <br/>
   Sponsored by Department of Statistics (Berkeley) and Yuanpei College (Peking University) 
   <br/>
-  Aug. 2021 - Dec. 2021 (expected)
+  Aug. 2021 - Dec. 2021
+- University of Washington
+  <br/>
+  Remote research (advisor: [Simon Shaolei Du](https://simonshaoleidu.com/))
+  <br/>
+  June. 2021 - May 2022 (expected)
 - DP Technology
   <br/>
   Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN))
