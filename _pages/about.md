@@ -18,7 +18,7 @@ I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/
 
 Publications
 ======
-- **(Anonymous Submission to ICML 2022)**
+- **(Anonymous Submission to NeurIPS 2022)**
   <br/>
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
   <br/>
