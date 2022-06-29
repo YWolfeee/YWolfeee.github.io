@@ -18,6 +18,8 @@ I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/
 
 Publications
 ======
+- **(Anonymous Submission to EMNLP 2022)**
+  <br/>
 - **(Anonymous Submission to NeurIPS 2022)**
   <br/>
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
@@ -55,6 +57,7 @@ Research & Intern Experiences
 
 Selected Awards
 ======
+- [Person of the Year](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year), 2021
 - May 4 scholarship (1%, Rank 1), 2021
 - National scholarship (1%, Rank 2), 2019
 - Leo Koguan scholarship (1%), 2020
