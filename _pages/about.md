@@ -14,7 +14,7 @@ If you are interested in working together, please feel free to contact me!
 
 News
 ======
-I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year) thanks to the Intelligent Campus Charity Entrepreneurship Program I lead.
+I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I lead.
 
 Publications
 ======
