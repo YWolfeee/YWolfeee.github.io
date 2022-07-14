@@ -63,4 +63,4 @@ Selected Awards
 - Leo Koguan scholarship (1%), 2020
 - Merit student pacesetter (2%), 2019
 - Chinese Mathematical Olympiad (First Prize, Rank 7 in China), 2017
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=n&d=ktK1i7T4F8ll52U1bRRi4b_7qX1FfQ9m62v9p3-SmMs&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=ktK1i7T4F8ll52U1bRRi4b_7qX1FfQ9m62v9p3-SmMs&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
