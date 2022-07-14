@@ -64,4 +64,4 @@ Selected Awards
 - Merit student pacesetter (2%), 2019
 - Chinese Mathematical Olympiad (First Prize, Rank 7 in China), 2017
 
-<a href='https://clustrmaps.com/site/1bpcz'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=H_rmQ74PzdkUNlANtUmgRXjPSpOOYZFUaRnZHpKaXyE'/></a>
+<a href='https://clustrmaps.com/site/1bpcz'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=H_rmQ74PzdkUNlANtUmgRXjPSpOOYZFUaRnZHpKaXyE'/></a>
