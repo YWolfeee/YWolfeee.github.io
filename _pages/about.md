@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate (4<sup>th</sup> / 5 year) in [Peking University](https://www.pku.edu.cn), majoring in Data Science (Math + Computer Science). I am fortunate to research in Professor [Liwei Wang](http://www.liweiwang-pku.com/)'s group. My research interest lies in many fields, including foundation model, theory in deep learning and reinforcement, out-of-distribution learning and AI + Science.
+I am a senior undergraduate (4<sup>th</sup> / 5 year) in [Peking University](https://www.pku.edu.cn), majoring in Data Science (Math + Computer Science). I am fortunate to research in Professor [Liwei Wang](http://www.liweiwang-pku.com/)'s group. My research interest lies in many fields, including language models, theory in deep learning and reinforcement learning as well as AI for Science.
 <br/>
-If you are interested in working together, please feel free to contact me!
+I am going to apply for CS Ph.D. this year. If you are interested in working together, please feel free to contact me!
 
 News
 ======
-I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I lead.
+I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people / all undergrads & grads) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I lead. See [our website](https://yppf.yuanpei.pku.edu.cn) with more than a million visits! 
 
 Publications
 ======
@@ -36,6 +36,9 @@ Publications
 
 Research & Intern Experiences
 ======
+- Stanford University
+  <br/>
+  Remote summer research (advisor: [James Zou](https://www.james-zou.com/), [Linjun Zhang](https://linjunz.github.io/))
 - University of California, Berkeley
   <br/>
   Invited visiting research (advisor: [Jacob Steinhardt](https://jsteinhardt.stat.berkeley.edu/))
@@ -47,7 +50,7 @@ Research & Intern Experiences
   <br/>
   Remote research (advisor: [Simon Shaolei Du](https://simonshaoleidu.com/))
   <br/>
-  June. 2021 - May 2022 (expected)
+  June 2021 - Sept. 2022 (expected)
 - DP Technology
   <br/>
   Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN))
