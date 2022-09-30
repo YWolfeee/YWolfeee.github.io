@@ -18,13 +18,18 @@ I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/
 
 Publications
 ======
-- **(Anonymous Submission to EMNLP 2022)**
+- **(Under Review) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
-- **(Anonymous Submission to NeurIPS 2022)**
+  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
+- **(Under Review) Discovering Latent Knowledge in Language Models Without Supervision**
   <br/>
+  _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
   <br/>
   _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
+- **(Preprint) [Risk Variance Penalization](https://arxiv.org/abs/2006.07544)**
+  <br/>
+  _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
 - **(Preprint) [Out-of-Distribution Generalization Analysis via Influence Function](https://arxiv.org/abs/2101.08521)**
   <br/>
   _**Haotian Ye\*** , Chuanlong Xie, Yue Liu, Zhenguo Li_
