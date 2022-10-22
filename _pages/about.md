@@ -8,19 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergrad in [Peking University](https://www.pku.edu.cn), majoring in Data Science (Math + Computer Science). 
-I am fortunate to research with Professor [Liwei Wang](http://www.liweiwang-pku.com/). 
-My research interest lies in many fields, including language models, theory in DL and RL, as well as AI for Science.
+I am a senior undergrad majoring in Data Science (Math + Computer Science) at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn). 
+I am fortunate to be advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) in [School of Electronics Engineering and Computer Sciences](https://eecs.pku.edu.cn/). 
+I am interested in making Machine Learning tools more powerful and interpretable in practice through theories, algorithms design, and better implementation, especially in scientific problems. 
 <br/>
-I am going to apply for CS Ph.D. this year. If you are interested in working together, please feel free to contact me!
+I am applying Ph.D. this year. If you are interested in working together, please feel free to contact me!
 
 News
 ======
-I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people / all undergrads & grads) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I founded and led. See [our website](https://yppf.yuanpei.pku.edu.cn) with more than a million visits! 
+I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (The highest annual honor, 10 people per year among all undergrad and grad students) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I founded and led. See [our website](https://yppf.yuanpei.pku.edu.cn) with more than a million visits! 
 
 Publications
 ======
-- **(Under Review) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
+- **(Under Review) [Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise](https://arxiv.org/abs/2210.11075)**
+  <br/>
+  _**Haotian Ye**, James Zou, Linjun Zhang_
+- **(Under Review) [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/abs/2210.10464)**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
 - **(Under Review) Discovering Latent Knowledge in Language Models Without Supervision**
@@ -36,33 +39,39 @@ Publications
   <br/>
   _**Haotian Ye\*** , Chuanlong Xie, Yue Liu, Zhenguo Li_
 
-Research & Intern Experiences
+Experiences
 ======
+- Peking University (Key Laboratory of Machine Perception)	
+  <br/>
+  Undergrad Research (advisor: Prof. [Liwei Wang](http://www.liweiwang-pku.com/), Department of Machine Intelligence)
+  <br/>
+  Sept. 2019 – Present 
+
 - Stanford University
   <br/>
-  Remote summer research (advisor: [James Zou](https://www.james-zou.com/), [Linjun Zhang](https://linjunz.github.io/))
+  Remote summer research (advisor: Prof. [James Zou](https://www.james-zou.com/), Biomedical Data Science; Prof. [Linjun Zhang](https://linjunz.github.io/), Department of Statistics)
   <br/>
-  June 2022 - Oct. 2022 (expected)
+  June 2022 - Oct. 2022
 - University of California, Berkeley
   <br/>
-  Invited visiting research (advisor: [Jacob Steinhardt](https://jsteinhardt.stat.berkeley.edu/))
+  Invited visiting research (advisor: Prof. [Jacob Steinhardt](https://jsteinhardt.stat.berkeley.edu/), Department of Statistics)
   <br/>
   Sponsored by Department of Statistics (Berkeley) and Yuanpei College (Peking University) 
   <br/>
   Aug. 2021 - Dec. 2021
 - University of Washington
   <br/>
-  Remote research (advisor: [Simon Shaolei Du](https://simonshaoleidu.com/))
+  Remote research (advisor: Prof. [Simon Shaolei Du](https://simonshaoleidu.com/), Paul G. Allen School of Computer Science & Engineering)
   <br/>
   June 2021 - Sept. 2022
 - DP Technology
   <br/>
-  Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN))
+  Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN), Co-founder & Chief Scientist of DP Technology)
   <br/>
   Feb. 2021 - May 2021
 - Huawei Noah's Ark Lab
   <br/>
-  Intern research (advisor: [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en))
+  Intern research (advisor: [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en), Noah's Ark Lab)
   <br/>
   July 2019 - Oct. 2019
 
