@@ -26,7 +26,7 @@ Publications
 - **(Under Review) [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/abs/2210.10464)**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
-- **(Under Review) Discovering Latent Knowledge in Language Models Without Supervision**
+- **(Under Review) [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827)**
   <br/>
   _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
