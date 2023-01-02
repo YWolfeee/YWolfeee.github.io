@@ -12,7 +12,7 @@ I am a senior undergrad majoring in Data Science (Math + Computer Science) at [Y
 I am fortunate to be advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) in [School of Electronics Engineering and Computer Sciences](https://eecs.pku.edu.cn/). 
 I am interested in making Machine Learning tools more powerful and interpretable in practice through theories, algorithms design, and better implementation, especially in scientific problems. 
 <br/>
-I am applying Ph.D. (2023). If you are interested in working together, please feel free to contact me!
+If you are interested in working together, please feel free to contact me!
 
 News
 ======
