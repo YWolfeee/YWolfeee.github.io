@@ -20,18 +20,18 @@ I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/
 
 Publications
 ======
-- **(Under Review) [Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise](https://arxiv.org/abs/2210.11075)**
+- **(AISTAT 2023) [Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise](https://arxiv.org/abs/2210.11075)**
   <br/>
   _**Haotian Ye**, James Zou, Linjun Zhang_
-- **(Under Review) [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/abs/2210.10464)**
-  <br/>
-  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
-- **(Under Review) [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827)**
+- **(ICLR 2023) [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827)**
   <br/>
   _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
 - **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
   <br/>
   _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
+- **(Under Review) [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/abs/2210.10464)**
+  <br/>
+  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
 - **(Preprint) [Risk Variance Penalization](https://arxiv.org/abs/2006.07544)**
   <br/>
   _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
