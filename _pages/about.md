@@ -21,24 +21,42 @@ News
 
 Publications
 ======
-- **(AISTAT 2023) [Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise](https://arxiv.org/abs/2210.11075)**
+- **(AISTAT 2023) Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise**
   <br/>
   _**Haotian Ye**, James Zou, Linjun Zhang_
-- **(ICLR 2023) [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827)**
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2210.11075)]
+  [[Code](https://github.com/YWolfeee/Freeze-Then-Train)]
+  [[Video](https://www.youtube.com/watch?v=K9evpKADRpk)]
+  [[Slides](https://haotianye.com/files/AISTATS23/slides_AISTATS23_FTT.pdf)]
+- **(ICLR 2023) Discovering Latent Knowledge in Language Models Without Supervision**
   <br/>
   _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
-- **(NeurIPS 2021) [Towards a Theoretical Framework of Out-of-Distribution Generalization](https://arxiv.org/abs/2106.04496)**
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2212.03827)]
+- **(NeurIPS 2021) Towards a Theoretical Framework of Out-of-Distribution Generalization**
   <br/>
   _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
-- **(Under Review) [On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness](https://arxiv.org/abs/2210.10464)**
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2106.04496)]
+  [[Code](https://github.com/YWolfeee/DomainBed)]
+  [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
+  [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
+- **(Under Review) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
-- **(Preprint) [Risk Variance Penalization](https://arxiv.org/abs/2006.07544)**
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2210.10464)]
+- **(Preprint) Risk Variance Penalization**
   <br/>
   _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
-- **(Preprint) [Out-of-Distribution Generalization Analysis via Influence Function](https://arxiv.org/abs/2101.08521)**
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2006.07544)]
+- **(Preprint) Out-of-Distribution Generalization Analysis via Influence Function**
   <br/>
   _**Haotian Ye\*** , Chuanlong Xie, Yue Liu, Zhenguo Li_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2101.08521)]
 
 Experiences
 ======
