@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergrad majoring in Data Science (Math + Computer Science) at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn). 
+I am a last year undergrad majoring in Data Science (Math + Computer Science) at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn). 
 I am fortunate to be advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) in [School of Electronics Engineering and Computer Sciences](https://eecs.pku.edu.cn/). 
 I am interested in making Machine Learning tools more powerful and interpretable in practice through theories, algorithms design, and better implementation, especially in scientific problems. 
 <br/>
@@ -16,12 +16,18 @@ If you are interested in working together, please feel free to contact me!
 
 News
 ======
+- (May 2023) I will start pursuing a CS PhD at Stanford University this Fall!
 - (Feb 2023) I am selected as a "top reviewer" for AISTAT 2023.
 - (Dec 2021) I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (The highest annual honor, 10 people per year among all undergrad and grad students) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I founded and led. See [our website](https://yppf.yuanpei.pku.edu.cn) with more than a million visits.
 
 Publications
 ======
-- **(AISTAT 2023) Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise**
+- **(ICML 2023, <text color='red'>Oral</text>) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
+  <br/>
+  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2210.10464)]
+- **(AISTATS 2023) Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise**
   <br/>
   _**Haotian Ye**, James Zou, Linjun Zhang_
   <br/>
@@ -42,11 +48,16 @@ Publications
   [[Code](https://github.com/YWolfeee/DomainBed)]
   [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
   [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
-- **(Under Review) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
+- **(Under Review) DeePMD-kit v2: A software package for Deep Potential models**
   <br/>
-  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
+  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
   <br/>
-  [[Arxiv](https://arxiv.org/abs/2210.10464)]
+  [[Arxiv](https://arxiv.org/abs/2304.09409)]
+- **(Under Review) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
+  <br/>
+  _Guhao Feng\*, Yuntian Gu\*, Bohang Zhang\*, **Haotian Ye\***, Di He, Liwei Wang_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2305.15408)]
 - **(Preprint) Risk Variance Penalization**
   <br/>
   _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
