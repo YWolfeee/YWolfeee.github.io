@@ -22,6 +22,17 @@ News
 
 Publications
 ======
+- **(Under Review) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
+  <br/>
+  _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, **Haotian Ye\***, Di He, Liwei Wang_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2305.15408)]
+  [[Video](https://youtu.be/nOIRuVluCyE)]
+- **(Under Review) DeePMD-kit v2: A software package for Deep Potential models**
+  <br/>
+  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2304.09409)]
 - **(ICML 2023, <text color='red'>Oral</text>) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
@@ -48,16 +59,6 @@ Publications
   [[Code](https://github.com/YWolfeee/DomainBed)]
   [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
   [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
-- **(Under Review) DeePMD-kit v2: A software package for Deep Potential models**
-  <br/>
-  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2304.09409)]
-- **(Under Review) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
-  <br/>
-  _Guhao Feng\*, Yuntian Gu\*, Bohang Zhang\*, **Haotian Ye\***, Di He, Liwei Wang_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2305.15408)]
 - **(Preprint) Risk Variance Penalization**
   <br/>
   _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
