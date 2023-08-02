@@ -10,7 +10,7 @@ redirect_from:
 
 I am a last year undergrad majoring in Data Science (Math + Computer Science) at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn). 
 I am fortunate to be advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) in [School of Electronics Engineering and Computer Sciences](https://eecs.pku.edu.cn/). 
-I am interested in making Machine Learning tools more powerful and interpretable in practice through theories, algorithms design, and better implementation, especially in scientific problems. 
+I am interested in making machine learning tools more powerful and interpretable in practice through theories, algorithms design, and better implementation, especially in scientific problems. 
 <br/>
 If you are interested in working together, please feel free to contact me!
 
@@ -22,17 +22,18 @@ News
 
 Publications
 ======
+- **(Under Review) Forward Laplacian: A New Computational Framework for Neural Network-based Variational Monte Carlo**
+  <br/>
+  _Ruichen Li\*, **Haotian Ye\***, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
+  <br/>
+  [[Arxiv](https://arxiv.org/abs/2307.08214)]
 - **(Under Review) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
   <br/>
   _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, **Haotian Ye\***, Di He, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2305.15408)]
   [[Video](https://youtu.be/nOIRuVluCyE)]
-- **(Under Review) DeePMD-kit v2: A software package for Deep Potential models**
-  <br/>
-  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2304.09409)]
+  [[Slides](https://haotianye.com/files/NeurIPS23/Slides_NeurIPS23_CoT.pdf)]
 - **(ICML 2023, <text color='red'>Oral</text>) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
@@ -51,6 +52,11 @@ Publications
   _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2212.03827)]
+- **(J. Chem. Phys. Aug 2023) DeePMD-kit v2: A software package for Deep Potential models**
+  <br/>
+  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
+  <br/>
+  [[Paper](https://doi.org/10.1063/5.0155600)]
 - **(NeurIPS 2021) Towards a Theoretical Framework of Out-of-Distribution Generalization**
   <br/>
   _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
@@ -109,6 +115,7 @@ Experiences
 
 Selected Awards
 ======
+- Weiming Scholar of Peking University (1%), 2023
 - [Person of the Year](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (10 people/year), 2021
 - May 4 scholarship (1%, Rank 1), 2021
 - National scholarship (1%, Rank 2), 2019
