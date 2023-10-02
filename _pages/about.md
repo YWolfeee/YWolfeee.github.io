@@ -15,8 +15,8 @@ I am interested in making machine learning tools more powerful in in scientific 
 
 News
 ======
-- (Feb 2023) I am selected as a "top reviewer" for AISTAT 2023.
-- (Dec 2021) I am honored as [Person of the Year 2021](http://m.cyol.com/gb/articles/2021-12/28/content_XM2l5spYg.html) of Peking University (The highest annual honor, 10 people per year among all undergrad and grad students) thanks to [the Intelligent Campus Charity Entrepreneurship Program](https://github.com/Yuanpei-Intelligence) I founded and led. See [our website](https://yppf.yuanpei.pku.edu.cn) with more than a million visits.
+- (Sept. 2023) Our chain-of-thought theory paper is accepted for an **oral presentation** at NeurIPS 2023. See you in New Orleans!
+- (Feb. 2023) I am selected as a "top reviewer" for AISTAT 2023.
 
 Publications
 ======
@@ -25,14 +25,14 @@ Publications
   _Ruichen Li\*, **Haotian Ye\***, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2307.08214)]
-- **(Under Review) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
+- **(NeurIPS 2023, Oral) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
   <br/>
   _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, **Haotian Ye\***, Di He, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2305.15408)]
   [[Video](https://youtu.be/nOIRuVluCyE)]
   [[Slides](https://haotianye.com/files/NeurIPS23/Slides_NeurIPS23_CoT.pdf)]
-- **(ICML 2023, <text color='red'>Oral</text>) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
+- **(ICML 2023, Oral) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
   _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
   <br/>
