@@ -11,7 +11,7 @@ redirect_from:
 I am a first-year CS Ph.D. at Stanford University, currently working with Professor [James Zou](https://www.james-zou.com/). Before that, I received my B.S. at Peking University advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
 <br/>
 <br/>
-I am interested in making machine learning tools more powerful in in scientific problems through theories, algorithms design, and high performance computing. If you are interested in my research, please feel free to contact me!
+I am interested in making machine learning tools more powerful in scientific problems through theories, algorithms design, and high performance computing. If you are interested in my research, please feel free to contact me!
 
 News
 ======
