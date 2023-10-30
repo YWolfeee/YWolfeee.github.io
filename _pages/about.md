@@ -15,6 +15,7 @@ I am interested in making machine learning tools more powerful in scientific pro
 
 News
 ======
+- (Oct. 2023) We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for efficient second order operators (e.g., Laplacian) computation. We used it to significantly advance the solving of multibody Schrödinger equations by an order of magnitude. Give it a try!
 - (Sept. 2023) Our chain-of-thought theory paper is accepted for an **oral presentation** at NeurIPS 2023. See you in New Orleans!
 - (Feb. 2023) I am selected as a "top reviewer" for AISTAT 2023.
 
