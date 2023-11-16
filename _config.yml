@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : haotian_yeee
 facebook:
   username               :
   app_id                 :
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Haotian Ye (叶皓天)"
   avatar           : "Identity_small.jpg"
-  bio              : "Undergraduate in Yuanpei College, Peking University"
-  location         : "Beijing, Guangzhou"
-  email            : "haotianye@pku.edu.cn"
+  bio              : "CS PhD at Stanford University"
+  location         : "Stanford"
+  email            : "haotianye@stanford.edu"
   github           : "YWolfeee"
   google_plus      :
   keybase          :
