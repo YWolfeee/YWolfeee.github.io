@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year CS Ph.D. at Stanford University, currently working with Professor [James Zou](https://www.james-zou.com/). Before that, I received my B.S. at Peking University advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
+I am a first-year CS Ph.D. at Stanford University, currently working with Professor [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, Peking University, under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
 <br/>
 <br/>
 I am interested in making machine learning tools more powerful in scientific problems through theories, algorithms design, and high performance computing. If you are interested in my research, please feel free to contact me!
@@ -19,28 +19,28 @@ News
 - (Sept. 2023) Our chain-of-thought theory paper is accepted for an **oral presentation** at NeurIPS 2023. See you in New Orleans!
 - (Feb. 2023) I am selected as a "top reviewer" for AISTAT 2023.
 
-Publications
+Selected Publications
 ======
-- **(Under Review) Forward Laplacian: A New Computational Framework for Neural Network-based Variational Monte Carlo**
+- **(Nature Machine Intelligence) Forward Laplacian: A New Computational Framework for Neural Network-based Variational Monte Carlo**
   <br/>
-  _Ruichen Li\*, **Haotian Ye\***, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
+  _Ruichen Li\*, Haotian Ye\*, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2307.08214)]
 - **(NeurIPS 2023, Oral) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
   <br/>
-  _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, **Haotian Ye\***, Di He, Liwei Wang_
+  _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, Haotian Ye\*, Di He, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2305.15408)]
   [[Video](https://youtu.be/nOIRuVluCyE)]
   [[Slides](https://haotianye.com/files/NeurIPS23/Slides_NeurIPS23_CoT.pdf)]
 - **(ICML 2023, Oral) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
-  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
+  _Haotian Ye\*, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2210.10464)]
 - **(AISTATS 2023) Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise**
   <br/>
-  _**Haotian Ye**, James Zou, Linjun Zhang_
+  _Haotian Ye, James Zou, Linjun Zhang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2210.11075)]
   [[Code](https://github.com/YWolfeee/Freeze-Then-Train)]
@@ -48,32 +48,22 @@ Publications
   [[Slides](https://haotianye.com/files/AISTATS23/slides_AISTATS23_FTT.pdf)]
 - **(ICLR 2023) Discovering Latent Knowledge in Language Models Without Supervision**
   <br/>
-  _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
+  _Collin Burns\*, Haotian Ye\*, Dan Klein, Jacob Steinhardt_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2212.03827)]
 - **(J. Chem. Phys. Aug 2023) DeePMD-kit v2: A software package for Deep Potential models**
   <br/>
-  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
+  _Jinzhe Zeng, Duo Zhang, ..., Haotian Ye, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
   <br/>
   [[Paper](https://doi.org/10.1063/5.0155600)]
 - **(NeurIPS 2021) Towards a Theoretical Framework of Out-of-Distribution Generalization**
   <br/>
-  _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
+  _Haotian Ye\*, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
   <br/>
   [[Arxiv](https://arxiv.org/abs/2106.04496)]
   [[Code](https://github.com/YWolfeee/DomainBed)]
   [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
   [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
-- **(Preprint) Risk Variance Penalization**
-  <br/>
-  _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2006.07544)]
-- **(Preprint) Out-of-Distribution Generalization Analysis via Influence Function**
-  <br/>
-  _**Haotian Ye\*** , Chuanlong Xie, Yue Liu, Zhenguo Li_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2101.08521)]
 
 Experiences
 ======
@@ -81,7 +71,7 @@ Experiences
   <br/>
   Undergrad Research (advisor: Prof. [Liwei Wang](http://www.liweiwang-pku.com/), Department of Machine Intelligence)
   <br/>
-  Sept. 2019 – Present 
+  Sept. 2019 – June 2023 
 
 - Stanford University
   <br/>
