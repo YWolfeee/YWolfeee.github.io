@@ -63,44 +63,6 @@ Selected Publications
   [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
   [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
 
- <!--  
-Experiences
-======
-- Peking University (Key Laboratory of Machine Perception)	
-  <br/>
-  Undergrad Research (advisor: Prof. [Liwei Wang](http://www.liweiwang-pku.com/), Department of Machine Intelligence)
-  <br/>
-  Sept. 2019 – June 2023 
-
-- Stanford University
-  <br/>
-  Remote summer research (advisor: Prof. [James Zou](https://www.james-zou.com/), Biomedical Data Science; Prof. [Linjun Zhang](https://linjunz.github.io/), Department of Statistics)
-  <br/>
-  June 2022 - Oct. 2022
-- University of California, Berkeley
-  <br/>
-  Invited visiting research (advisor: Prof. [Jacob Steinhardt](https://jsteinhardt.stat.berkeley.edu/), Department of Statistics)
-  <br/>
-  Sponsored by Department of Statistics (Berkeley) and Yuanpei College (Peking University) 
-  <br/>
-  Aug. 2021 - Dec. 2021
-- University of Washington
-  <br/>
-  Remote research (advisor: Prof. [Simon Shaolei Du](https://simonshaoleidu.com/), Paul G. Allen School of Computer Science & Engineering)
-  <br/>
-  June 2021 - Sept. 2022
-- DP Technology
-  <br/>
-  Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN), Co-founder & Chief Scientist of DP Technology)
-  <br/>
-  Feb. 2021 - May 2021
-- Huawei Noah's Ark Lab
-  <br/>
-  Intern research (advisor: [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en), Noah's Ark Lab)
-  <br/>
-  July 2019 - Oct. 2019
--->
-
 Selected Awards
 ======
 - Weiming Scholar of Peking University (1%), 2023
