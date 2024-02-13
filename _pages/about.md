@@ -78,14 +78,22 @@ Publications
   [[Arxiv](https://arxiv.org/abs/2101.08521)]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+ <!--  
+>>>>>>> parent of ff57b5b (Update about.md)
 Experiences
 ======
 - Peking University (Key Laboratory of Machine Perception)	
   <br/>
   Undergrad Research (advisor: Prof. [Liwei Wang](http://www.liweiwang-pku.com/), Department of Machine Intelligence)
   <br/>
+<<<<<<< HEAD
   Sept. 2019 – Present 
+=======
+  Sept. 2019 – June 2023 
+>>>>>>> parent of ff57b5b (Update about.md)
 
 - Stanford University
   <br/>
@@ -114,9 +122,14 @@ Experiences
   Intern research (advisor: [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en), Noah's Ark Lab)
   <br/>
   July 2019 - Oct. 2019
+<<<<<<< HEAD
 
 
 >>>>>>> parent of ea6f8b5 (Update about.md)
+=======
+-->
+
+>>>>>>> parent of ff57b5b (Update about.md)
 Selected Awards
 ======
 - Weiming Scholar of Peking University (1%), 2023
