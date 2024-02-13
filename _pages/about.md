@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year CS Ph.D. at Stanford University, currently working with Professor [James Zou](https://www.james-zou.com/). Before that, I received my B.S. at Peking University advised by Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
+I am a first-year CS Ph.D. at Stanford University, currently working with Professor [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, Peking University, under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
 <br/>
 <br/>
 I am interested in making machine learning tools more powerful in scientific problems through theories, algorithms design, and high performance computing. If you are interested in my research, please feel free to contact me!
@@ -17,32 +17,28 @@ News
 ======
 - (Feb. 2024) Our [Forward Laplacian paper](https://www.nature.com/articles/s42256-024-00794-x) is accepted by Nature Machine Intelligence! We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for accelerating general second order operators (e.g., Laplacian) computation.
 
-Publications
+Selected Publications
 ======
-<<<<<<< HEAD
 - **(Nature Machine Intelligence) A computational framework for neural network-based variational Monte Carlo with Forward Laplacian**
-=======
-- **(Under Review) Forward Laplacian: A New Computational Framework for Neural Network-based Variational Monte Carlo**
->>>>>>> parent of ea6f8b5 (Update about.md)
   <br/>
-  _Ruichen Li\*, **Haotian Ye\***, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
+  _Ruichen Li\*, Haotian Ye\*, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
   <br/>
   [[Paper](https://www.nature.com/articles/s42256-024-00794-x)]
 - **(NeurIPS 2023, Oral) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
   <br/>
-  _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, **Haotian Ye\***, Di He, Liwei Wang_
+  _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, Haotian Ye\*, Di He, Liwei Wang_
   <br/>
   [[Paper](https://arxiv.org/abs/2305.15408)]
   [[Video](https://youtu.be/nOIRuVluCyE)]
   [[Slides](https://haotianye.com/files/NeurIPS23/Slides_NeurIPS23_CoT.pdf)]
 - **(ICML 2023, Oral) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
-  _**Haotian Ye\***, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
+  _Haotian Ye\*, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
   <br/>
   [[Paper](https://arxiv.org/abs/2210.10464)]
 - **(AISTATS 2023) Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise**
   <br/>
-  _**Haotian Ye**, James Zou, Linjun Zhang_
+  _Haotian Ye, James Zou, Linjun Zhang_
   <br/>
   [[Paper](https://arxiv.org/abs/2210.11075)]
   [[Code](https://github.com/YWolfeee/Freeze-Then-Train)]
@@ -50,86 +46,24 @@ Publications
   [[Slides](https://haotianye.com/files/AISTATS23/slides_AISTATS23_FTT.pdf)]
 - **(ICLR 2023) Discovering Latent Knowledge in Language Models Without Supervision**
   <br/>
-  _Collin Burns\*, **Haotian Ye\***, Dan Klein, Jacob Steinhardt_
+  _Collin Burns\*, Haotian Ye\*, Dan Klein, Jacob Steinhardt_
   <br/>
   [[Paper](https://arxiv.org/abs/2212.03827)]
 - **(J. Chem. Phys. Aug 2023) DeePMD-kit v2: A software package for Deep Potential models**
   <br/>
-  _Jinzhe Zeng, Duo Zhang, ..., **Haotian Ye**, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
+  _Jinzhe Zeng, Duo Zhang, ..., Haotian Ye, ..., Weinan E, Roberto Car, Linfeng Zhang, Han Wang_
   <br/>
   [[Paper](https://doi.org/10.1063/5.0155600)]
 - **(NeurIPS 2021) Towards a Theoretical Framework of Out-of-Distribution Generalization**
   <br/>
-  _**Haotian Ye\***, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
+  _Haotian Ye\*, Chuanlong Xie, Tianle Cai, Ruichen Li, Zhenguo Li, Liwei Wang_
   <br/>
   [[Paper](https://arxiv.org/abs/2106.04496)]
   [[Code](https://github.com/YWolfeee/DomainBed)]
   [[Video](https://slideslive.com/38967497/towards-a-theoretical-framework-of-outofdistribution-generalization?ref=recommended)]
   [[Slides](http://haotianye.com/files/NeurIPS21/slides_NeurIPS21_OOD.pdf)]
-- **(Preprint) Risk Variance Penalization**
-  <br/>
-  _Chuanlong Xie, **Haotian Ye**, Fei Chen, Yue Liu, Rui Sun, Zhenguo Li_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2006.07544)]
-- **(Preprint) Out-of-Distribution Generalization Analysis via Influence Function**
-  <br/>
-  _**Haotian Ye\*** , Chuanlong Xie, Yue Liu, Zhenguo Li_
-  <br/>
-  [[Arxiv](https://arxiv.org/abs/2101.08521)]
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
- <!--  
->>>>>>> parent of ff57b5b (Update about.md)
-Experiences
-======
-- Peking University (Key Laboratory of Machine Perception)	
-  <br/>
-  Undergrad Research (advisor: Prof. [Liwei Wang](http://www.liweiwang-pku.com/), Department of Machine Intelligence)
-  <br/>
-<<<<<<< HEAD
-  Sept. 2019 – Present 
-=======
-  Sept. 2019 – June 2023 
->>>>>>> parent of ff57b5b (Update about.md)
-
-- Stanford University
-  <br/>
-  Remote summer research (advisor: Prof. [James Zou](https://www.james-zou.com/), Biomedical Data Science; Prof. [Linjun Zhang](https://linjunz.github.io/), Department of Statistics)
-  <br/>
-  June 2022 - Oct. 2022
-- University of California, Berkeley
-  <br/>
-  Invited visiting research (advisor: Prof. [Jacob Steinhardt](https://jsteinhardt.stat.berkeley.edu/), Department of Statistics)
-  <br/>
-  Sponsored by Department of Statistics (Berkeley) and Yuanpei College (Peking University) 
-  <br/>
-  Aug. 2021 - Dec. 2021
-- University of Washington
-  <br/>
-  Remote research (advisor: Prof. [Simon Shaolei Du](https://simonshaoleidu.com/), Paul G. Allen School of Computer Science & Engineering)
-  <br/>
-  June 2021 - Sept. 2022
-- DP Technology
-  <br/>
-  Intern (advisor: [Linfeng Zhang](https://scholar.google.com/citations?user=jk7qwmcAAAAJ&hl=zh-CN), Co-founder & Chief Scientist of DP Technology)
-  <br/>
-  Feb. 2021 - May 2021
-- Huawei Noah's Ark Lab
-  <br/>
-  Intern research (advisor: [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en), Noah's Ark Lab)
-  <br/>
-  July 2019 - Oct. 2019
-<<<<<<< HEAD
 
 
->>>>>>> parent of ea6f8b5 (Update about.md)
-=======
--->
-
->>>>>>> parent of ff57b5b (Update about.md)
 Selected Awards
 ======
 - Weiming Scholar of Peking University (1%), 2023
