@@ -19,19 +19,19 @@ News
 
 Selected Publications
 ======
-- **(Nature Machine Intelligence) A computational framework for neural network-based variational Monte Carlo with Forward Laplacian**
+- **(<font color="#DC143C">Nature Machine Intelligence</font>) A computational framework for neural network-based variational Monte Carlo with Forward Laplacian**
   <br/>
   _Ruichen Li\*, Haotian Ye\*, Du Jiang, Xuelan Wen, Chuwei Wang, Zhe Li, Xiang Li, Di He, Ji Chen, Weiluo Ren, Liwei Wang_
   <br/>
   [[Paper](https://www.nature.com/articles/s42256-024-00794-x)]
-- **(NeurIPS 2023, Oral) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
+- **(NeurIPS 2023, <font color="#DC143C">Oral</font>) Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective**
   <br/>
   _Guhao Feng\*, Bohang Zhang\*, Yuntian Gu\*, Haotian Ye\*, Di He, Liwei Wang_
   <br/>
   [[Paper](https://arxiv.org/abs/2305.15408)]
   [[Video](https://youtu.be/nOIRuVluCyE)]
   [[Slides](https://haotianye.com/files/NeurIPS23/Slides_NeurIPS23_CoT.pdf)]
-- **(ICML 2023, Oral) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
+- **(ICML 2023, <font color="#DC143C">Oral</font>) On the Power of Pre-training for Generalization in RL: Provable Benefits and Hardness**
   <br/>
   _Haotian Ye\*, Xiaoyu Chen\*, Liwei Wang, Simon Shaolei Du_
   <br/>
