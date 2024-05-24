@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year CS Ph.D. at Stanford University, currently working with Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, Peking University, under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
+I am a first-year CS Ph.D. at Stanford University advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, Peking University, under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
 <br/>
 <br/>
 I am interested in making machine learning tools more powerful in scientific problems through theories, algorithms design, and high performance computing. If you are interested in my research, please feel free to contact me!
 
 News
 ======
+- (May. 2024) Three papers got accepted by ICML 2024, inclduing [LLM selection](https://arxiv.org/abs/2402.02314), [in-context vectos](https://arxiv.org/abs/2311.06668), and [monitoring ai usage in peer reviews](https://arxiv.org/pdf/2403.07183). See you in Vienna!
 - (Feb. 2024) Our [Forward Laplacian paper](https://www.nature.com/articles/s42256-024-00794-x) is accepted by Nature Machine Intelligence! We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for accelerating general second order operators (e.g., Laplacian) computation.
 
 Selected Publications
