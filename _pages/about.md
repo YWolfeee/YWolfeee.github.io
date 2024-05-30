@@ -15,7 +15,7 @@ I am interested in making machine learning tools more powerful in scientific pro
 
 News
 ======
-- (May. 2024) Three papers got accepted by ICML 2024, inclduing [LLM selection](https://arxiv.org/abs/2402.02314), [in-context vectos](https://arxiv.org/abs/2311.06668), and [monitoring ai usage in peer reviews](https://arxiv.org/pdf/2403.07183). See you in Vienna!
+- (May. 2024) Three papers got accepted by ICML 2024, inclduing [LLM selection](https://arxiv.org/abs/2402.02314), [in-context vectors](https://arxiv.org/abs/2311.06668), and [monitoring AI usage in peer reviews](https://arxiv.org/pdf/2403.07183). See you in Vienna!
 - (Feb. 2024) Our [Forward Laplacian paper](https://www.nature.com/articles/s42256-024-00794-x) is accepted by Nature Machine Intelligence! We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for accelerating general second order operators (e.g., Laplacian) computation.
 
 Selected Publications
