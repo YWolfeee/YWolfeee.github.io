@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year CS Ph.D. at Stanford University advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, Peking University, under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
+I am a second-year Ph.D. student at [Stanford CS](https://www.cs.stanford.edu/), advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, [Peking University](https://english.pku.edu.cn/), under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
 I focus on advancing foundational generative AI through research in theory, algorithm design, and high-performance computing. If you're interested in my work, please feel free to contact me!
 
 News
