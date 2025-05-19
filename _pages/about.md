@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 I am a second-year Ph.D. student at [Stanford CS](https://www.cs.stanford.edu/), advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, [Peking University](https://english.pku.edu.cn/), under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
-I focus on advancing foundational generative AI through algorithm design and high-performance computing. If you're interested in my work, please feel free to contact me!
+I focus on advancing foundational generative AI through algorithm design. If you're interested in my work, please feel free to contact me!
 
 News
 ======
-- (Apr. 2025) I am currently working part-time at [NVIDIA Deep Imagination Research](https://research.nvidia.com/labs/dir/) and will join as full-time intern this summer in Santa Clara.
 - (Apr. 2025) Google intern work [LLM Constrained Decoding](https://arxiv.org/abs/2504.09135) was accepted by AISTATS 2025, and [ICV-Hallucination](https://arxiv.org/abs/2410.15778) by ICLR 2025 (<font color="#DC143C">Spotlight</font>). See you in Singapore and Phuket!
+- (Sept. 2024) I started my part-time internship at [NVIDIA Deep Imagination Research](https://research.nvidia.com/labs/dir/).
 - (Sept. 2024) Two papers was accepted by NeurIPS 2024, including [training-free guidance](https://arxiv.org/abs/2409.15761) (<font color="#DC143C">Spotlight</font>) and [geometric trajectory models](https://arxiv.org/abs/2410.13027). See you in Vancouver!
 <!-- - (May. 2024) Three papers got accepted by ICML 2024, inclduing [LLM selection](https://arxiv.org/abs/2402.02314), [in-context vectors](https://arxiv.org/abs/2311.06668), and [monitoring AI usage in peer reviews](https://arxiv.org/pdf/2403.07183). See you in Vienna! -->
 <!-- - (Feb. 2024) Our [Forward Laplacian paper](https://www.nature.com/articles/s42256-024-00794-x) is accepted by Nature Machine Intelligence! We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for accelerating general second order operators (e.g., Laplacian) computation. -->
