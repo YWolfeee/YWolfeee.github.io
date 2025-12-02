@@ -38,6 +38,11 @@ Selected Publications
   _Yuzheng Hu, Fan Wu, Haotian Ye, David Forsyth, James Zou, Nan Jiang, Jiaqi W. Ma, Han Zhao_
   <br/>
   [[Paper](https://arxiv.org/abs/2505.19281)]
+- **(ICLR 2025, <font color="#DC143C">Spotlight</font>) Reducing Hallucinations in Vision-Language Models via Latent Space Steering**
+  <br/>
+  _Sheng Liu, Haotian Ye, Lei Xing, James Zou_
+  <br/>
+  [[Paper](https://arxiv.org/abs/2410.15778)]
 - **(AISTATS 2025) Efficient and Asymptotically Unbiased Constrained Decoding for Large Language Models**
   <br/>
   _Haotian Ye, Himanshu Jain, Chong You, Ananda Theertha Suresh, Haowei Lin, James Zou, Felix Yu_
