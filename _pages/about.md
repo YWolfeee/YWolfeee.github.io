@@ -8,19 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student at [Stanford CS](https://www.cs.stanford.edu/), advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, [Peking University](https://english.pku.edu.cn/), under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
-I focus on advancing foundational generative AI through algorithm design. If you're interested in my work, please feel free to contact me!
+I am a third-year Ph.D. student at [Stanford CS](https://www.cs.stanford.edu/), advised by Professor [James Zou](https://www.james-zou.com/) and [Stefano Ermon](https://cs.stanford.edu/~ermon/). Before that, I received my B.S. in Math and Computer Science at Yuanpei College, [Peking University](https://english.pku.edu.cn/), under the advice of Professor [Liwei Wang](http://www.liweiwang-pku.com/) and [Di He](https://dihe-pku.github.io/). 
+I focus on advancing generative AI (both for transformer and diffusion) through post-training and inference-time algorithm design. Feel free to reach out if you are interested in my work oy my talk.
 
 News
 ======
+- (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego!
+- (Nov. 2025) We released NVIDIA [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/), the Cosmos World Foundation Models specialized for video generation. I am responsible for designing the RL algorithm and performing large-scale post-training (1K+ GPUs) for the release. The algorithm paper will be publicized soon.   
+- (Oct. 2025) [Diffusion inference-time acceleration](https://arxiv.org/abs/2507.15260) accepted by ICCV 2025. See you in Hawaii! 
 - (Apr. 2025) Google intern work [LLM Constrained Decoding](https://arxiv.org/abs/2504.09135) was accepted by AISTATS 2025, and [ICV-Hallucination](https://arxiv.org/abs/2410.15778) by ICLR 2025 (<font color="#DC143C">Spotlight</font>). See you in Singapore and Phuket!
-- (Sept. 2024) I started my part-time internship at [NVIDIA Deep Imagination Research](https://research.nvidia.com/labs/dir/).
-- (Sept. 2024) Two papers was accepted by NeurIPS 2024, including [training-free guidance](https://arxiv.org/abs/2409.15761) (<font color="#DC143C">Spotlight</font>) and [geometric trajectory models](https://arxiv.org/abs/2410.13027). See you in Vancouver!
+<!-- - (Sept. 2024) I started my part-time internship at [NVIDIA Deep Imagination Research](https://research.nvidia.com/labs/dir/). ->
+<!-- - (Sept. 2024) Two papers was accepted by NeurIPS 2024, including [training-free guidance](https://arxiv.org/abs/2409.15761) (<font color="#DC143C">Spotlight</font>) and [geometric trajectory models](https://arxiv.org/abs/2410.13027). See you in Vancouver! ->
 <!-- - (May. 2024) Three papers got accepted by ICML 2024, inclduing [LLM selection](https://arxiv.org/abs/2402.02314), [in-context vectors](https://arxiv.org/abs/2311.06668), and [monitoring AI usage in peer reviews](https://arxiv.org/pdf/2403.07183). See you in Vienna! -->
 <!-- - (Feb. 2024) Our [Forward Laplacian paper](https://www.nature.com/articles/s42256-024-00794-x) is accepted by Nature Machine Intelligence! We release [LapJAX](https://github.com/YWolfeee/lapjax), a JAX based package designed for accelerating general second order operators (e.g., Laplacian) computation. -->
 
 Selected Publications
 ======
+- **(In submission) Data-regularized Reinforcement Learning for Diffusion Models at Scale**
+  <br/>
+  _Haotian Ye, Kaiwen Zheng, Jiashu Xu, Puheng Li, Huayu Chen, Jiaqi Han, Sheng Liu, Qinsheng Zhang, Hanzi Mao, Zekun Hao, Prithvijit Chattopadhyay, Dinghao Yang, Liang Feng, Maosheng Liao, Junjie Bai, Ming-Yu Liu, James Zou, Stefano Ermon_
+- **(In submission) Can Language Models Discover Scaling Laws?**
+  <br/>
+  _Haowei Lin\*, Haotian Ye\*, Quzhe Huang, Wenzheng Feng, Yujun Li, Xiangyu Wang, Hubert Lim, Zhengrui Li, Jianzhu Ma, Yitao Liang, James Zou_
+- **(In submission) InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression**
+  <br/>
+  _Haotian Ye\*, Qiyuan He\*, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu_
+- **(NeurIPS 2025, <font color="#DC143C">Oral</font>) A Snapshot of Influence: A Local Data Attribution Framework for Online Reinforcement Learning**
+  <br/>
+  _Yuzheng Hu, Fan Wu, Haotian Ye, David Forsyth, James Zou, Nan Jiang, Jiaqi W. Ma, Han Zhao_
+  <br/>
+  [[Paper](https://arxiv.org/abs/2505.19281)]
 - **(AISTATS 2025) Efficient and Asymptotically Unbiased Constrained Decoding for Large Language Models**
   <br/>
   _Haotian Ye, Himanshu Jain, Chong You, Ananda Theertha Suresh, Haowei Lin, James Zou, Felix Yu_
