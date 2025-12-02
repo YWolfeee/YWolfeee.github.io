@@ -13,9 +13,9 @@ I focus on advancing generative AI (both for transformer and diffusion) through 
 
 News
 ======
-- (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego!
+- (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) was accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego!
 - (Nov. 2025) We released NVIDIA [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/), the Cosmos World Foundation Models specialized for video generation. I am responsible for designing the RL algorithm and performing large-scale post-training (1K+ GPUs) for the release. The algorithm paper will be publicized soon.   
-- (Oct. 2025) [Diffusion inference-time acceleration](https://arxiv.org/abs/2507.15260) accepted by ICCV 2025. See you in Hawaii! 
+- (Oct. 2025) [Diffusion Inference-Time Acceleration](https://arxiv.org/abs/2507.15260) was accepted by ICCV 2025. See you in Hawaii! 
 - (Apr. 2025) Google intern work [LLM Constrained Decoding](https://arxiv.org/abs/2504.09135) was accepted by AISTATS 2025, and [ICV-Hallucination](https://arxiv.org/abs/2410.15778) by ICLR 2025 (<font color="#DC143C">Spotlight</font>). See you in Singapore and Phuket!
 <!-- - (Sept. 2024) I started my part-time internship at [NVIDIA Deep Imagination Research](https://research.nvidia.com/labs/dir/). ->
 <!-- - (Sept. 2024) Two papers was accepted by NeurIPS 2024, including [training-free guidance](https://arxiv.org/abs/2409.15761) (<font color="#DC143C">Spotlight</font>) and [geometric trajectory models](https://arxiv.org/abs/2410.13027). See you in Vancouver! ->
