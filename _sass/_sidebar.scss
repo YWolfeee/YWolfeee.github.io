@@ -12,9 +12,11 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  padding-top: 2em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
+    padding-top: 3em;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -40,7 +42,7 @@
 
   p, li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     line-height: 1.5;
   }
 
@@ -72,9 +74,9 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 108px;
   // set width only, for non-square avatars
-  // height: 36px;
+  // height: 108px;
 
   @include breakpoint($large) {
     display: block;
@@ -83,10 +85,11 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 108px;
+    border-radius: 0;
 
     @include breakpoint($large) {
+      max-width: 263px;
       padding: 5px;
       border: 1px solid $border-color;
     }
@@ -112,13 +115,14 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-family: 'Playfair Display', 'STKaiti', '华文楷体', 'Kaiti SC', Georgia, serif;
+  font-size: $type-size-3;
+  font-weight: 700;
 }
 
 .author__bio {
@@ -130,108 +134,86 @@
   }
 }
 
-.author__urls-wrapper {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
-  cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
-    }
-  }
+.author__social {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
 
   @include breakpoint($large) {
-    display: block;
+    margin-top: 20px;
+    gap: 15px;
   }
 
-  button {
-    margin-bottom: 0;
+  a {
+    color: #555;
+    font-size: 1.5em;
+    text-decoration: none;
 
     @include breakpoint($large) {
-      display: none;
+      font-size: 1.8em;
+    }
+
+    &:hover {
+      color: #000;
     }
   }
 }
 
-.author__urls {
+.author__nav {
   display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
-  list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
-  cursor: default;
 
   @include breakpoint($large) {
     display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
+    margin-top: 30px;
 
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: $border-color transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
-  }
 
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
+    li {
+      margin-bottom: 0.5em;
     }
-  }
 
-  li {
-    white-space: nowrap;
-  }
+    a {
+      display: flex;
+      align-items: center;
+      color: $text-color;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 0.3em 0;
+      transition: color 0.2s ease;
 
-  a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
-    font-size: $type-size-5;
-    text-decoration: none;
+      &:hover {
+        color: $link-color;
 
-    &:hover {
-      text-decoration: underline;
+        .nav-indicator {
+          background-color: $link-color;
+          width: 24px;
+        }
+      }
+
+      &.active {
+        color: $link-color;
+        font-weight: 600;
+
+        .nav-indicator {
+          background-color: $link-color;
+          width: 24px;
+        }
+      }
+    }
+
+    .nav-indicator {
+      display: inline-block;
+      width: 16px;
+      height: 2px;
+      background-color: #ccc;
+      margin-right: 12px;
+      transition: all 0.2s ease;
     }
   }
 }

@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Haotian Ye (叶皓天)"
-  avatar           : "sf-small.jpg"
-  bio              : "CS Ph.D. student at Stanford"
+  avatar           : "bnaff.jpg"
+  # bio              : "CS Ph.D. student at Stanford"
   location         : "Stanford"
   email            : "haotianye@stanford.edu"
   github           : "YWolfeee"
