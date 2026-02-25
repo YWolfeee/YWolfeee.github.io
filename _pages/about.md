@@ -51,7 +51,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <div class="pub-item">
 <div class="pub-left">
-<abbr class="badge">ICLR 2026 Oral</abbr>
+<abbr class="badge-highlight">ICLR 2026 Oral</abbr>
 <a href="/images/papers/infotok.png" target="_blank"><img src="/images/papers/infotok.png" alt="InfoTok"></a>
 </div>
 <div class="pub-right">
