@@ -21,10 +21,11 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <!-- </p> -->
 
 <h2 id="news">News</h2>
+- (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Spotlight</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
 - (Jan. 2026) We release an interesting [study](https://linhaowei1.github.io/scaling_law_discovery/) on whether AI can discover its own scaling laws better than humans. Check it out!
 - (Jan. 2026) Check out [InfoTok](https://arxiv.org/abs/2512.16975), our adaptive information-theoretic tokenizer that achieves 40% higher compression without information loss and represents videos via coarse-grained to fine-grained sequences.
 - (Dec. 2025) We release [DDRL](https://research.nvidia.com/labs/dir/ddrl/), the RL algorithm powering NVIDIA's [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/) video generative models (2B/14B)! An amazing experience scaling the post-training of models on ~2,000 H100 GPUs. Check our [post](https://x.com/haotian_yeee/status/1997138677529825452?s=20) and [models](https://github.com/nvidia-cosmos/cosmos-predict2.5)!
-- (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) was accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego!
+<!-- - (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) was accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego! -->
 <!-- - (Nov. 2025) We released NVIDIA [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/), the Cosmos World Foundation Models specialized for video generation. I am responsible for designing the RL algorithm and performing large-scale post-training (1K+ GPUs) for the release. -->  
 <!-- - (Oct. 2025) [Diffusion Inference-Time Acceleration](https://arxiv.org/abs/2507.15260) was accepted by ICCV 2025. See you in Hawaii!  -->
 <!-- - (Apr. 2025) Google intern work [LLM Constrained Decoding](https://arxiv.org/abs/2504.09135) was accepted by AISTATS 2025, and [ICV-Hallucination](https://arxiv.org/abs/2410.15778) by ICLR 2025 (<font color="#DC143C">Spotlight</font>). See you in Singapore and Phuket! ->
@@ -50,25 +51,25 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <div class="pub-item">
 <div class="pub-left">
-<abbr class="badge">In submission</abbr>
-<a href="/images/papers/sld.png" target="_blank"><img src="/images/papers/sld.png" alt="Scaling Laws"></a>
-</div>
-<div class="pub-right">
-<div class="pub-title">Can Language Models Discover Scaling Laws?</div>
-<div class="pub-authors">Haowei Lin*, Haotian Ye*, Quzhe Huang, Wenzheng Feng, Yujun Li, Xiangyu Wang, Hubert Lim, Zhengrui Li, Jianzhu Ma, Yitao Liang, James Zou</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2507.21184">[Paper]</a> <a href="https://linhaowei1.github.io/scaling_law_discovery/">[Website]</a> <a href="https://github.com/linhaowei1/SLD">[Code]</a> <a href="https://algorithmicsuperintelligence.ai/blog/openevolve-sldagent/index.html">[Blog]</a></div>
-</div>
-</div>
-
-<div class="pub-item">
-<div class="pub-left">
-<abbr class="badge">In submission</abbr>
+<abbr class="badge">ICLR 2026 Oral</abbr>
 <a href="/images/papers/infotok.png" target="_blank"><img src="/images/papers/infotok.png" alt="InfoTok"></a>
 </div>
 <div class="pub-right">
 <div class="pub-title">InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</div>
 <div class="pub-authors">Haotian Ye*, Qiyuan He*, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu</div>
 <div class="pub-links"><a href="https://arxiv.org/abs/2512.16975">[Paper]</a> <a href="https://github.com/YWolfeee/InfoTok">[Code]</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-left">
+<abbr class="badge">ICLR 2026</abbr>
+<a href="/images/papers/sld.png" target="_blank"><img src="/images/papers/sld.png" alt="Scaling Laws"></a>
+</div>
+<div class="pub-right">
+<div class="pub-title">Can Language Models Discover Scaling Laws?</div>
+<div class="pub-authors">Haowei Lin*, Haotian Ye*, Quzhe Huang, Wenzheng Feng, Yujun Li, Xiangyu Wang, Hubert Lim, Zhengrui Li, Jianzhu Ma, Yitao Liang, James Zou</div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2507.21184">[Paper]</a> <a href="https://linhaowei1.github.io/scaling_law_discovery/">[Website]</a> <a href="https://github.com/linhaowei1/SLD">[Code]</a> <a href="https://algorithmicsuperintelligence.ai/blog/openevolve-sldagent/index.html">[Blog]</a></div>
 </div>
 </div>
 
