@@ -21,7 +21,8 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <!-- </p> -->
 
 <h2 id="news">News</h2>
-- (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Spotlight</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
+- (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
+- (Feb. 2026) I had the pleasure of presenting our work on [DDRL](https://research.nvidia.com/labs/dir/ddrl/) at CalTech (hosted by [Anima Anandkumar](https://www.eas.caltech.edu/people/anima)) and ByteDance Seed (hosted by [Haoqi Fan](https://haoqifan.github.io/)). Thanks for the invitation!
 - (Jan. 2026) We release an interesting [study](https://linhaowei1.github.io/scaling_law_discovery/) on whether AI can discover its own scaling laws better than humans. Check it out!
 - (Jan. 2026) Check out [InfoTok](https://arxiv.org/abs/2512.16975), our adaptive information-theoretic tokenizer that achieves 40% higher compression without information loss and represents videos via coarse-grained to fine-grained sequences.
 - (Dec. 2025) We release [DDRL](https://research.nvidia.com/labs/dir/ddrl/), the RL algorithm powering NVIDIA's [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/) video generative models (2B/14B)! An amazing experience scaling the post-training of models on ~2,000 H100 GPUs. Check our [post](https://x.com/haotian_yeee/status/1997138677529825452?s=20) and [models](https://github.com/nvidia-cosmos/cosmos-predict2.5)!
@@ -171,6 +172,11 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 
 <h2 id="talks">Invited Talks</h2>
+- [CalTech](https://www.caltech.edu/), Feb. 2026
+<br/>*Data-regularized Reinforcement Learning for Diffusion Models at Scale*
+
+- [ByteDance Seed](https://seed.bytedance.com/en/research), Feb. 2026
+<br/>*Data-regularized Reinforcement Learning for Diffusion Models at Scale*
 
 - [NVIDIA Research](https://research.nvidia.com/), Oct. 2025
 <br/>*Data-regularized Reinforcement Learning for Diffusion Models at Scale*
