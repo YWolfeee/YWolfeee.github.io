@@ -58,7 +58,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</div>
 <div class="pub-authors">Haotian Ye*, Qiyuan He*, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2512.16975">[Paper]</a> <a href="https://github.com/YWolfeee/InfoTok">[Code]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2512.16975">[Paper]</a> <a href="https://research.nvidia.com/labs/dir/infotok/">[Website]</a> <a href="https://github.com/YWolfeee/InfoTok">[Code]</a> <a href="https://x.com/haotian_yeee/status/2038709594588160059?s=20">[Twitter]</a></div>
 </div>
 </div>
 
