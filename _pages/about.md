@@ -21,6 +21,8 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <!-- </p> -->
 
 <h2 id="news">News</h2>
+- (May 2026) Check out [SimpleTES](https://www.wizardquant.com/will/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [tweet](https://x.com/haotian_yeee/status/2056782234192166926).
+- (Apr. 2026) I passed my Ph.D. qualifying exam at Stanford!
 - (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
 - (Feb. 2026) I had the pleasure of presenting our work on [DDRL](https://research.nvidia.com/labs/dir/ddrl/) at CalTech (hosted by [Anima Anandkumar](https://www.eas.caltech.edu/people/anima)) and ByteDance Seed (hosted by [Haoqi Fan](https://haoqifan.github.io/)). Thanks for the invitation!
 - (Jan. 2026) We release an interesting [study](https://linhaowei1.github.io/scaling_law_discovery/) on whether AI can discover its own scaling laws better than humans. Check it out!
@@ -37,6 +39,18 @@ Feel free to reach out if you are interested in my research or simply want to ch
   <br/>
 
 <h2 id="publications">Selected Publications</h2>
+
+<div class="pub-item">
+<div class="pub-left">
+<abbr class="badge">Preprint</abbr>
+<a href="/images/papers/simpletes.gif" target="_blank"><img src="/images/papers/simpletes.gif" alt="SimpleTES"></a>
+</div>
+<div class="pub-right">
+<div class="pub-title">SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops</div>
+<div class="pub-authors">Haotian Ye*, Haowei Lin*, Jingyi Tang*, Yizhen Luo*, Caiyin Yang, Chang Su, Rahul Thapa, Rui Yang, Ruihua Liu, Zeyu Li, Chong Gao, Dachao Ding, Guangrong He, Miaolei Zhang, Lina Sun, Wenyang Wang, Yuchen Zhong, Zhuohao Shen, Di He, Jianzhu Ma, Stefano Ermon, Tongyang Li, Xiaowen Chu, James Zou, Yuzhi Xu</div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2604.19341">[Paper]</a> <a href="https://www.wizardquant.com/will/simpletes">[Website]</a> <a href="https://github.com/wq-will/SimpleTES">[Code]</a> <a href="https://x.com/haotian_yeee/status/2056782234192166926">[Twitter]</a></div>
+</div>
+</div>
 
 <div class="pub-item">
 <div class="pub-left">
@@ -172,6 +186,13 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 
 <h2 id="talks">Invited Talks</h2>
+- Lightning Talk at [AI Agents for Discovery in the Wild Workshop](https://ai-discovery-in-the-wild.github.io/) (CAIS 2026), May 2026
+<br/>*SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops*
+
+- [ByteDance Seed](https://seed.bytedance.com/en/research), May 2026
+<br/>*Data-regularized Reinforcement Learning for Diffusion Models at Scale*
+<br/>*InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression*
+
 - [CalTech](https://www.caltech.edu/), Feb. 2026
 <br/>*Data-regularized Reinforcement Learning for Diffusion Models at Scale*
 
