@@ -1,0 +1,199 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<style>
+  /* ===== Distill-style blog layout ===== */
+  .distill {
+    --dt-text: #1a1a1a;
+    --dt-muted: #6b6b6b;
+    --dt-rule: #e7e7e7;
+    --dt-accent: #b31b1b; /* arXiv-ish red accent */
+    --dt-link: #1a0dab;
+    color: var(--dt-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 17px;
+    padding: 0 20px 120px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Centered reading column; figures can break out wider */
+  .distill .d-body { max-width: 800px; margin: 0 auto; }
+  .distill .d-wide { max-width: 1040px; margin: 2.5rem auto; }
+  /* Medium figures: centered, do not span the full frame */
+  .distill figure.d-mid { max-width: 680px; margin: 2.2rem auto; }
+  /* Small figures: for light, low-information diagrams */
+  .distill figure.d-small { max-width: 460px; margin: 2rem auto; }
+
+  /* Lead-in / standfirst paragraph above the TL;DR */
+  .distill .d-lead { font-size: 1.13rem; line-height: 1.72; color: #6f6f6f; margin: 0 0 2rem; }
+  .distill .d-lead p { margin: 0 0 1rem; }
+  .distill .d-lead p:last-child { margin-bottom: 0; }
+
+  /* ---- Header ---- */
+  .distill .d-header { max-width: 920px; margin: 0 auto; padding: 64px 0 28px; text-align: center; }
+  .distill .d-title {
+    font-size: 2.6rem; line-height: 1.18; font-weight: 700;
+    letter-spacing: -0.01em; margin: 0 0 0.6rem;
+  }
+  .distill .d-subtitle { font-size: 1.25rem; color: var(--dt-muted); font-weight: 400; margin: 0 0 1.6rem; }
+  .distill .d-meta { font-size: 1.08rem; color: var(--dt-muted); margin: 1.6rem 0 1.6rem; }
+  .distill .d-meta a { color: var(--dt-link); text-decoration: none; }
+  .distill .d-affil { font-size: 0.92rem; color: var(--dt-muted); margin: 0 0 1.4rem; }
+
+  /* ---- Institution logos row ---- */
+  .distill .d-logos {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 26px; margin: 0 0 1.8rem;
+  }
+  .distill .d-logos img { height: 34px; width: auto; opacity: 0.78; }
+
+  /* ---- Link buttons (paper / code / tweet) ---- */
+  .distill .d-links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 0.5rem 0 0; }
+  .distill .d-links a {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 8px 16px; border: 1px solid var(--dt-rule); border-radius: 999px;
+    color: var(--dt-text); text-decoration: none; font-size: 0.92rem; font-weight: 500;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .distill .d-links a:hover { background: #f6f6f6; border-color: #cfcfcf; }
+  .distill .d-link-img { height: 0.95em; width: auto; vertical-align: -0.12em; }
+
+  /* ---- Body typography ---- */
+  .distill h2 {
+    font-size: 1.6rem; font-weight: 700; margin: 2.6rem 0 0.9rem;
+    padding-top: 1.4rem; border-top: 1px solid var(--dt-rule); letter-spacing: -0.01em;
+  }
+  .distill h3 { font-size: 1.22rem; font-weight: 650; margin: 2rem 0 0.6rem; }
+  .distill p { margin: 0 0 1.15rem; }
+  .distill a { color: var(--dt-link); text-decoration: none; }
+  .distill a:hover { text-decoration: underline; }
+  .distill ul, .distill ol { margin: 0 0 1.15rem; padding-left: 1.4rem; }
+  .distill li { margin: 0.35rem 0; }
+
+  /* ---- Abstract box ---- */
+  .distill .d-abstract {
+    background: #fafafa; border: 1px solid var(--dt-rule); border-radius: 10px;
+    padding: 22px 26px; margin: 2.2rem auto 0; font-size: 1.02rem; text-align: left;
+  }
+  .distill .d-abstract h2 {
+    border: 0; padding: 0; margin: 0 0 0.6rem; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--dt-muted);
+  }
+  .distill .d-abstract p:last-child { margin-bottom: 0; }
+
+  /* ---- TL;DR / key-takeaways box ---- */
+  .distill .d-tldr {
+    background: #fff8f0; border: 1px solid #f0d9c0; border-left: 4px solid var(--dt-accent);
+    border-radius: 10px; padding: 20px 24px; margin: 2rem auto;
+  }
+  .distill .d-tldr .d-tldr-label {
+    font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.09em;
+    font-weight: 700; color: var(--dt-accent); margin: 0 0 0.6rem;
+  }
+  .distill .d-tldr ul { margin: 0; }
+  .distill .d-tldr p:last-child, .distill .d-tldr li:last-child { margin-bottom: 0; }
+
+  /* ---- Inline highlight / callout box ---- */
+  .distill .d-highlight {
+    background: #f4f8ff; border: 1px solid #d7e3f7; border-left: 4px solid #1a0dab;
+    border-radius: 8px; padding: 16px 20px; margin: 1.8rem auto; font-size: 0.98rem;
+  }
+  .distill .d-highlight b, .distill .d-highlight strong { color: #14258c; }
+  .distill .d-highlight p:last-child { margin-bottom: 0; }
+
+  /* ---- Yellow question box ---- */
+  .distill .d-question {
+    background: #fff8d6; border: 1px solid #f0dca0; border-left: 4px solid #e8b000;
+    border-radius: 8px; padding: 16px 22px; margin: 2rem auto; font-size: 1.05rem;
+  }
+  .distill .d-question b, .distill .d-question strong { color: #8a6100; }
+  .distill .d-question p:last-child { margin-bottom: 0; }
+
+  /* ---- Figures ---- */
+  .distill figure { margin: 2rem auto; text-align: center; }
+  .distill figure img { max-width: 100%; height: auto; border-radius: 6px; }
+  /* Shrink-wrap the caption so a single line centers, while a wrapped
+     multi-line caption stays left-aligned (block centered under the figure). */
+  .distill figcaption {
+    font-size: 0.88rem; color: var(--dt-muted); margin: 0.7rem auto 0;
+    line-height: 1.5; text-align: left; display: table;
+  }
+  /* Force-center a multi-line caption when desired: add class="cap-center" */
+  .distill figcaption.cap-center { text-align: center; }
+
+  /* ---- Blockquote / callout ---- */
+  .distill blockquote {
+    border-left: 3px solid var(--dt-accent); margin: 1.6rem 0; padding: 0.2rem 0 0.2rem 1.1rem;
+    color: #333; font-style: italic;
+  }
+
+  /* ---- Code ---- */
+  .distill code { background: #f3f3f3; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  .distill pre { background: #f7f7f7; border: 1px solid var(--dt-rule); border-radius: 8px; padding: 16px; overflow-x: auto; }
+  .distill pre code { background: none; padding: 0; }
+
+  /* ---- Tables ---- */
+  .distill table { border-collapse: collapse; width: 100%; margin: 1.6rem 0; font-size: 0.95rem; }
+  .distill th, .distill td { border: 1px solid var(--dt-rule); padding: 8px 12px; text-align: center; }
+  .distill thead th { background: #fafafa; }
+
+  /* ---- Footer / back link ---- */
+  .distill .d-back { max-width: 800px; margin: 3rem auto 0; padding-top: 1.4rem; border-top: 1px solid var(--dt-rule); font-size: 0.95rem; }
+
+  @media (max-width: 760px) {
+    .distill { font-size: 16px; }
+    .distill .d-title { font-size: 2rem; }
+  }
+</style>
+
+<div id="main" role="main" class="distill">
+  <article class="d-article" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <header class="d-header">
+      {% if page.title %}<h1 class="d-title" itemprop="headline">{{ page.title }}</h1>{% endif %}
+      {% if page.subtitle %}<p class="d-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+      {% if page.authors or page.blog_date %}
+      <p class="d-meta">{% if page.authors %}{{ page.authors }}{% endif %}{% if page.authors and page.blog_date %} &nbsp;·&nbsp; {% endif %}{% if page.blog_date %}{{ page.blog_date }}{% endif %}</p>
+      {% endif %}
+
+      {% if page.logos %}
+      <div class="d-logos">
+        {% for logo in page.logos %}
+          <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt }}"{% if logo.h %} style="height:{{ logo.h }}px"{% endif %}>
+        {% endfor %}
+      </div>
+      {% elsif page.affiliation %}
+      <p class="d-affil">{{ page.affiliation }}</p>
+      {% endif %}
+
+      {% if page.links %}
+      <div class="d-links">
+        {% for link in page.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{% if link.img %}<img class="d-link-img" src="{{ link.img | relative_url }}" alt="">{% elsif link.icon %}<i class="{{ link.icon }}"></i>{% endif %}{{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if page.abstract %}
+      <div class="d-abstract d-body">
+        <h2>Abstract</h2>
+        <p>{{ page.abstract }}</p>
+      </div>
+      {% endif %}
+    </header>
+
+    <div class="d-body" itemprop="text">
+      {{ content }}
+    </div>
+
+    <div class="d-back d-body">
+      <a href="{{ base_path }}/">&larr; Back to homepage</a>
+    </div>
+
+  </article>
+</div>

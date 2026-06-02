@@ -21,6 +21,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <!-- </p> -->
 
 <h2 id="news">News</h2>
+- (June 2026) I will be giving a few talks on SimpleTES. Please check out our [blog](https://haotianye.com/blog/simpletes/) for our thoughts, and let me know if you are interested in the work!
 - (May 2026) Check out [SimpleTES](https://www.wizardquant.com/will/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [tweet](https://x.com/haotian_yeee/status/2056782234192166926).
 - (Apr. 2026) I passed my Ph.D. qualifying exam at Stanford!
 - (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
@@ -186,6 +187,10 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 
 <h2 id="talks">Invited Talks</h2>
+
+- [Recursive Superintelligence](https://www.recursive.com/), June 2026
+<br/>*SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops*
+
 - Lightning Talk at [AI Agents for Discovery in the Wild Workshop](https://ai-discovery-in-the-wild.github.io/) (CAIS 2026), May 2026
 <br/>*SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops*
 
