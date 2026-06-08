@@ -12,7 +12,7 @@ I am a third-year Ph.D. student at <a href="https://www.cs.stanford.edu/">Stanfo
 
 <!-- <h2 id="researchinterests">Research Interest</h2> -->
 <!-- <p> -->
-My Ph.D. research aims to advance generative AI capabilities for open problems through post-training and inference-time algorithm design. Specifically, for both text and vision generative models:
+My Ph.D. research aims to advance model capabilities for open problems through post-training and inference-time algorithm design. Specifically, for both text and vision models:
 - How do we continuously improve them via post-training, even at superhuman levels?
 - How do we scale test-time compute effectively and efficiently?
 
@@ -22,13 +22,14 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <h2 id="news">News</h2>
 - (June 2026) I will be giving a few talks on SimpleTES. Please check out our [blog](https://haotianye.com/blog/simpletes/) for our thoughts, and let me know if you are interested in the work!
-- (May 2026) Check out [SimpleTES](https://www.wizardquant.com/will/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [tweet](https://x.com/haotian_yeee/status/2056782234192166926).
+- (May 2026) Check out [SimpleTES](https://www.wizardquant.com/will/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [X](https://x.com/haotian_yeee/status/2056782234192166926).
 - (Apr. 2026) I passed my Ph.D. qualifying exam at Stanford!
 - (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
-- (Feb. 2026) I had the pleasure of presenting our work on [DDRL](https://research.nvidia.com/labs/dir/ddrl/) at CalTech (hosted by [Anima Anandkumar](https://www.eas.caltech.edu/people/anima)) and ByteDance Seed (hosted by [Haoqi Fan](https://haoqifan.github.io/)). Thanks for the invitation!
-- (Jan. 2026) We release an interesting [study](https://linhaowei1.github.io/scaling_law_discovery/) on whether AI can discover its own scaling laws better than humans. Check it out!
-- (Jan. 2026) Check out [InfoTok](https://arxiv.org/abs/2512.16975), our adaptive information-theoretic tokenizer that achieves 40% higher compression without information loss and represents videos via coarse-grained to fine-grained sequences.
-- (Dec. 2025) We release [DDRL](https://research.nvidia.com/labs/dir/ddrl/), the RL algorithm powering NVIDIA's [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/) video generative models (2B/14B)! An amazing experience scaling the post-training of models on ~2,000 H100 GPUs. Check our [post](https://x.com/haotian_yeee/status/1997138677529825452?s=20) and [models](https://github.com/nvidia-cosmos/cosmos-predict2.5)!
+<!-- - (Feb. 2026) I had the pleasure of presenting our work on [DDRL](https://research.nvidia.com/labs/dir/ddrl/) at CalTech (hosted by [Anima Anandkumar](https://www.eas.caltech.edu/people/anima)) and ByteDance Seed (hosted by [Haoqi Fan](https://haoqifan.github.io/)). Thanks for the invitation! -->
+<!-- - (Jan. 2026) We release an interesting [study](https://linhaowei1.github.io/scaling_law_discovery/) on whether AI can discover its own scaling laws better than humans. Check it out! -->
+<!-- - (Jan. 2026) Check out [InfoTok](https://arxiv.org/abs/2512.16975), our adaptive information-theoretic tokenizer that achieves 40% higher compression without information loss and represents videos via coarse-grained to fine-grained sequences. -->
+<!-- - (Dec. 2025) We release [DDRL](https://research.nvidia.com/labs/dir/ddrl/), the RL algorithm powering NVIDIA's [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/) video generative models (2B/14B)! An amazing experience scaling the post-training of models on ~2,000 H100 GPUs. Check our [post](https://x.com/haotian_yeee/status/1997138677529825452?s=20) and [models](https://github.com/nvidia-cosmos/cosmos-predict2.5)! -->
+
 <!-- - (Dec. 2025) [Data Attribution for RL](https://arxiv.org/abs/2505.19281) was accepted by NeurIPS 2025 (<font color="#DC143C">Oral</font>). See you in San Diego! -->
 <!-- - (Nov. 2025) We released NVIDIA [Cosmos-Predict2.5](https://research.nvidia.com/labs/dir/cosmos-predict2.5/), the Cosmos World Foundation Models specialized for video generation. I am responsible for designing the RL algorithm and performing large-scale post-training (1K+ GPUs) for the release. -->  
 <!-- - (Oct. 2025) [Diffusion Inference-Time Acceleration](https://arxiv.org/abs/2507.15260) was accepted by ICCV 2025. See you in Hawaii!  -->
@@ -49,7 +50,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops</div>
 <div class="pub-authors">Haotian Ye*, Haowei Lin*, Jingyi Tang*, Yizhen Luo*, Caiyin Yang, Chang Su, Rahul Thapa, Rui Yang, Ruihua Liu, Zeyu Li, Chong Gao, Dachao Ding, Guangrong He, Miaolei Zhang, Lina Sun, Wenyang Wang, Yuchen Zhong, Zhuohao Shen, Di He, Jianzhu Ma, Stefano Ermon, Tongyang Li, Xiaowen Chu, James Zou, Yuzhi Xu</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2604.19341">[Paper]</a> <a href="https://www.wizardquant.com/will/simpletes">[Website]</a> <a href="https://github.com/wq-will/SimpleTES">[Code]</a> <a href="https://x.com/haotian_yeee/status/2056782234192166926">[Twitter]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2604.19341">[Paper]</a> <a href="https://www.wizardquant.com/will/simpletes">[Website]</a> <a href="https://github.com/wq-will/SimpleTES">[Code]</a> <a href="https://haotianye.com/blog/simpletes/">[Blog]</a> <a href="https://x.com/haotian_yeee/status/2056782234192166926">[X]</a></div>
 </div>
 </div>
 
@@ -61,7 +62,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">Data-regularized Reinforcement Learning for Diffusion Models at Scale</div>
 <div class="pub-authors">Haotian Ye, Kaiwen Zheng, Jiashu Xu, Puheng Li, Huayu Chen, Jiaqi Han, Sheng Liu, Qinsheng Zhang, Hanzi Mao, Zekun Hao, Prithvijit Chattopadhyay, Dinghao Yang, Liang Feng, Maosheng Liao, Junjie Bai, Ming-Yu Liu, James Zou, Stefano Ermon</div>
-<div class="pub-links"><a href="https://www.arxiv.org/abs/2512.04332">[Paper]</a> <a href="https://research.nvidia.com/labs/dir/ddrl/">[Website]</a> <a href="https://github.com/nvidia-cosmos/cosmos-rl/blob/main/examples/ddrl.md">[Code]</a> <a href="https://x.com/haotian_yeee/status/1997138677529825452?s=20">[Twitter]</a></div>
+<div class="pub-links"><a href="https://www.arxiv.org/abs/2512.04332">[Paper]</a> <a href="https://research.nvidia.com/labs/dir/ddrl/">[Website]</a> <a href="https://github.com/nvidia-cosmos/cosmos-rl/blob/main/examples/ddrl.md">[Code]</a> <a href="https://x.com/haotian_yeee/status/1997138677529825452?s=20">[X]</a></div>
 </div>
 </div>
 
@@ -73,7 +74,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</div>
 <div class="pub-authors">Haotian Ye*, Qiyuan He*, Jiaqi Han, Puheng Li, Jiaojiao Fan, Zekun Hao, Fitsum Reda, Yogesh Balaji, Huayu Chen, Sheng Liu, Angela Yao, James Zou, Stefano Ermon, Haoxiang Wang, Ming-Yu Liu</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2512.16975">[Paper]</a> <a href="https://research.nvidia.com/labs/dir/infotok/">[Website]</a> <a href="https://github.com/YWolfeee/InfoTok">[Code]</a> <a href="https://x.com/haotian_yeee/status/2038709594588160059?s=20">[Twitter]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2512.16975">[Paper]</a> <a href="https://research.nvidia.com/labs/dir/infotok/">[Website]</a> <a href="https://github.com/YWolfeee/InfoTok">[Code]</a> <a href="https://x.com/haotian_yeee/status/2038709594588160059?s=20">[X]</a></div>
 </div>
 </div>
 
@@ -85,7 +86,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">Can Language Models Discover Scaling Laws?</div>
 <div class="pub-authors">Haowei Lin*, Haotian Ye*, Quzhe Huang, Wenzheng Feng, Yujun Li, Xiangyu Wang, Hubert Lim, Zhengrui Li, Jianzhu Ma, Yitao Liang, James Zou</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2507.21184">[Paper]</a> <a href="https://linhaowei1.github.io/scaling_law_discovery/">[Website]</a> <a href="https://github.com/linhaowei1/SLD">[Code]</a> <a href="https://algorithmicsuperintelligence.ai/blog/openevolve-sldagent/index.html">[Blog]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2507.21184">[Paper]</a> <a href="https://linhaowei1.github.io/scaling_law_discovery/">[Website]</a> <a href="https://github.com/linhaowei1/SLD">[Code]</a> <a href="https://algorithmicsuperintelligence.ai/blog/openevolve-sldagent/index.html">[Blog]</a> <a href="https://x.com/haotian_yeee/status/2014779893612261448?s=20">[X]</a></div>
 </div>
 </div>
 
@@ -121,7 +122,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">TFG: Unified Training-Free Guidance for Diffusion Models</div>
 <div class="pub-authors">Haotian Ye*, Haowei Lin*, Jiaqi Han*, Minkai Xu, Sheng Liu, Yitao Liang, Jianzhu Ma, James Zou, Stefano Ermon</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2409.15761">[Paper]</a> <a href="https://github.com/YWolfeee/Training-Free-Guidance">[Code]</a> <a href="https://x.com/haotian_yeee/status/1859672842658512908">[Twitter]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2409.15761">[Paper]</a> <a href="https://github.com/YWolfeee/Training-Free-Guidance">[Code]</a> <a href="https://x.com/haotian_yeee/status/1859672842658512908">[X]</a></div>
 </div>
 </div>
 
