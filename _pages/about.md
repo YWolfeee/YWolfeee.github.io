@@ -22,7 +22,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <h2 id="news">News</h2>
 - (June 2026) I will be giving a few talks on SimpleTES. Please check out our [blog](https://haotianye.com/blog/simpletes/) for our thoughts, and let me know if you are interested in the work!
-- (May 2026) Check out [SimpleTES](https://www.wizardquant.com/will/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [X](https://x.com/haotian_yeee/status/2056782234192166926).
+- (May 2026) Check out [SimpleTES](https://www.wq-will.com/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [X](https://x.com/haotian_yeee/status/2056782234192166926).
 - (Apr. 2026) I passed my Ph.D. qualifying exam at Stanford!
 - (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
 <!-- - (Feb. 2026) I had the pleasure of presenting our work on [DDRL](https://research.nvidia.com/labs/dir/ddrl/) at CalTech (hosted by [Anima Anandkumar](https://www.eas.caltech.edu/people/anima)) and ByteDance Seed (hosted by [Haoqi Fan](https://haoqifan.github.io/)). Thanks for the invitation! -->
@@ -50,7 +50,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <div class="pub-right">
 <div class="pub-title">SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops</div>
 <div class="pub-authors">Haotian Ye*, Haowei Lin*, Jingyi Tang*, Yizhen Luo*, Caiyin Yang, Chang Su, Rahul Thapa, Rui Yang, Ruihua Liu, Zeyu Li, Chong Gao, Dachao Ding, Guangrong He, Miaolei Zhang, Lina Sun, Wenyang Wang, Yuchen Zhong, Zhuohao Shen, Di He, Jianzhu Ma, Stefano Ermon, Tongyang Li, Xiaowen Chu, James Zou, Yuzhi Xu</div>
-<div class="pub-links"><a href="https://arxiv.org/abs/2604.19341">[Paper]</a> <a href="https://www.wizardquant.com/will/simpletes">[Website]</a> <a href="https://github.com/wq-will/SimpleTES">[Code]</a> <a href="https://haotianye.com/blog/simpletes/">[Blog]</a> <a href="https://x.com/haotian_yeee/status/2056782234192166926">[X]</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2604.19341">[Paper]</a> <a href="https://www.wq-will.com/simpletes">[Website]</a> <a href="https://github.com/wq-will/SimpleTES">[Code]</a> <a href="https://haotianye.com/blog/simpletes/">[Blog]</a> <a href="https://x.com/haotian_yeee/status/2056782234192166926">[X]</a></div>
 </div>
 </div>
 

@@ -19,7 +19,7 @@ links:
     url: "https://github.com/wq-will/SimpleTES"
     icon: "fab fa-github"
   - name: "Website"
-    url: "https://www.wizardquant.com/will/simpletes"
+    url: "https://www.wq-will.com/simpletes"
     icon: "fas fa-link"
   - name: "X"
     url: "https://x.com/haotian_yeee/status/2056782234192166926"
