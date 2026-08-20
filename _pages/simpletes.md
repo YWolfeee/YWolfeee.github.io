@@ -3,7 +3,6 @@ title: "A New Scaling Axis for Open-ended Discovery"
 # subtitle: "SimpleTES is a principled framework that scales up the evaluation-driven discovery loop"
 layout: distill
 permalink: /blog/simpletes/
-authors: "Written by Haotian Ye and Haowei Lin"
 blog_date: "June 2026"
 logos:
   - { src: "/images/blog/simpletes/WILL.svg", alt: "Wizard Intelligence Learning Lab" }
@@ -14,13 +13,13 @@ logos:
 links:
   - name: "Paper"
     url: "https://arxiv.org/abs/2604.19341"
-    icon: "fas fa-file-pdf"
+    img: "/images/blog/simpletes/link-paper.svg"
   - name: "Code"
     url: "https://github.com/wq-will/SimpleTES"
-    icon: "fab fa-github"
+    img: "/images/blog/simpletes/link-code.svg"
   - name: "Website"
     url: "https://www.wq-will.com/simpletes"
-    icon: "fas fa-link"
+    img: "/images/blog/simpletes/link-website.svg"
   - name: "X"
     url: "https://x.com/haotian_yeee/status/2056782234192166926"
     img: "/images/blog/simpletes/x-logo.svg"
@@ -28,23 +27,24 @@ links:
 
 <div class="d-lead">
   <p>AI in 2026 has reached a stage where tackling challenging, open-ended problems becomes possible. Yet these discovery problems, unlike standard QA or tasks that can be solved in a few rounds, require cycles of trial-and-error before a novel solution is found. So what is the right way to scale up this discovery loop? How different is it from model scaling and classical test-time scaling? And how much can we expect from it?</p>
-  <p>This blog walks through our proposal, Simple Test-time Evaluation-driven Scaling (SimpleTES), covering the motivation, methodology, training, and our thoughts along the way.</p>
+  <p>This blog walks through our proposal, Simple Test-time Evaluation-driven Scaling (SimpleTES), a framework that organizes evaluator queries across independent trajectories, iterative refinement, local candidate selection, and the selective reuse of evaluated histories. The goal is to make evaluation signals compound over time, so scaling the loop produces genuinely new and progressively better solutions.</p>
+  <p>Across quantum physics, astronomy, biology, AI, and mathematics, we test the same structure on 28 open-ended problems, changing only the evaluator. Figure 1 gives a first look at what the search discovers.</p>
 </div>
 
 <div class="d-tldr">
   <p class="d-tldr-label">TL;DR</p>
   <ul>
     <li>Similar to how residual connections enable neural-network parameters to truly scale, we aim to find the correct recipe that lets test-time search <b>scale up</b> for open-ended problems.</li>
-    <li>SimpleTES, inspired by how science advances, is a minimal framework that scales the discovery loop in a <b>simple and structured</b> way.</li>
+    <li>SimpleTES, inspired by how science advances, is a minimal framework that scales the discovery loop in a <b>simple and structured</b> way. The structure is summarized by $(C,L,K,\Phi)$: parallel exploration, sequential refinement, local selection, and context composition.</li>
      <!-- along three axes: <b>parallel exploration (C)</b>, <b>sequential refinement (L)</b>, and <b>local selection (K)</b>.</li> -->
-    <li>SimpleTES discovers <b>SOTA solutions on 20 of 21 open-ended problems</b> across six domains using open-source models, beating systems built on frontier closed models.</li>
-    <li>By training models to be aware of the discovery objective, i.e., <b>to leverage early failures for future success</b>, we shift the whole outcome distribution upward and find a new SOTA the untrained model missed.</li>
+    <li>SimpleTES discovers <b>state-of-the-art results on 28 open-ended problems across five broad scientific domains</b> using open-source models, beating systems built on frontier closed models. On the Second Autocorrelation Inequality, matching the Claude-Code + Opus 4.6 score costs about USD 60 with gpt-oss-120b versus about USD 500—a reported <b>8.3× cost gap</b>.</li>
+    <li>By training models to be aware of the discovery objective, i.e., <b>to leverage early failures for future success</b>, we shift the whole outcome distribution upward and find a new SOTA the untrained model missed. This trajectory-level objective also improves performance on held-out problems.</li>
   </ul>
 </div>
 
 <figure class="d-wide">
-  <video src="{{ '/images/blog/simpletes/overall.mp4' | relative_url }}" autoplay loop muted playsinline style="max-width:100%;height:auto;border-radius:6px;"></video>
-  <figcaption><b>Figure 1.</b> SimpleTES at a glance: new state-of-the-art solutions across six scientific domains.</figcaption>
+  <img src="{{ '/images/blog/simpletes/paper-overview-discoveries-v2.png' | relative_url }}" alt="SimpleTES results across five domains, with representative discoveries in quantum compilation, astrodynamics, lasso paths, and GPU kernels">
+  <figcaption><b>Figure 1.</b> One shared search structure produces 28 state-of-the-art results across five domains. Representative discoveries include lower-overhead qubit routing, lower-cost spacecraft trajectories, a faster lasso-path solver, and the fastest reported TriMul kernel. Adapted from Figure 1b–c of the paper.</figcaption>
 </figure>
 
 ## What makes AI scalable for scientific discovery?
@@ -62,6 +62,8 @@ Unlike question answering, knowledge retrieval, or coding, where a correct answe
 <div class="d-highlight">
   We call this the <b>evaluation-driven discovery loop</b>, since it is driven by and relies on evaluation signals, which can be anything from experimental results to a colleague's feedback to a numerical simulation.
 </div>
+
+The scaling challenge is not the number of evaluator queries alone, but whether evidence from those queries compounds. Independent branches can duplicate one another, long refinement chains can become trapped behind early winners, and unfiltered histories can overwhelm the model with irrelevant information. The object we need to scale is therefore the organization of the loop.
 
 What makes science powerful is not a single brilliant step, but that the whole community *scales this loop up*.
  <!-- many researchers run it in parallel, build on each other across generations, and compete to push the frontier.  -->
@@ -87,6 +89,8 @@ For instance, neural network parameters did not truly scale up until mechanisms 
   The core question we want to answer: <b>What is the essential structure that enables effective scaling for scientific discovery?</b>
 </div>
 
+Our answer is **structured scaling**: organize evaluator queries so that independent exploration, iterative refinement, local selection, and selective reuse of evaluated history reinforce one another as the loop grows.
+
 Notice that the *scientific discovery* problems here can refer to any continual optimization problem where what matters is the **best** solution ever found, not the average. We focus on such problems precisely because their optimal solutions are not yet known, so any improvement over the current best directly justifies the effect of a proposed method. Standard tasks like AIME, whose answer is a single integer from 000 to 999, do not apply: there, pass@1000 is trivially 100%, which makes the study of scaling meaningless.
 
 ## Designing the right way to scale
@@ -101,23 +105,27 @@ We aim to uncover the correct structure for scaling up the evaluation-driven dis
 
 Where should that structure come from? We take inspiration from the system that has scaled discovery for centuries: the scientific community. However dynamic and complex it looks, it comes down to a few basic behaviors. First, individual researchers try several ideas and keep the best; second, new ideas are mostly refined from earlier promising ones; and third, many groups search in parallel and compete with each other. We formalize exactly these three behaviors, and nothing more, into a single loop scaled along three axes, giving our simple test-time evaluation-driven scaling framework, SimpleTES.
 
+The formulation separates two roles that are easy to conflate. $(C,L,K)$ decides **where the evaluation budget goes**: across independent trajectories, refinement depth, and local candidates. The context composer $\Phi$ decides **what each new proposal gets to remember**. Together, $(C,L,K,\Phi)$ specifies the search structure, while only $C$, $L$, and $K$ multiply the evaluation budget.
+
 <!-- - **Parallel exploration ($C$).** $C$ independent trajectories start from the task. This is competition, not collaboration. Unlike a role-based agentic workflow that splits a problem across an executor, a critic, and an information gatherer (as in James Zou's [Virtual Lab](https://www.nature.com/articles/s41586-025-09442-9)), real science advances by many groups attacking the same problem and racing. Homogeneous, competing chains also break the **Matthew effect**, where a few early winners would otherwise hoard the budget and trap the search in a local optimum.
 - **Sequential refinement ($L$).** Each trajectory refines its solution over $L$ steps, shaped by the evaluator's feedback, the way a line of work builds on its own prior results.
 - **Local selection ($K$).** At each step, $K$ candidates are sampled and only the best commits forward, so a mediocre attempt does not get to steer what comes next. -->
 
 <figure class="d-wide">
-  <img src="{{ '/images/blog/simpletes/2.png' | relative_url }}" alt="The three operations of SimpleTES composed into one scalable loop">
-  <figcaption><b>Figure 4.</b> The three operations compose into one scalable loop. The only task-specific component is the evaluator $V$. Everything else is shared across domains.</figcaption>
+  <img src="{{ '/images/blog/simpletes/paper-structured-scaling-v2.png' | relative_url }}" alt="How SimpleTES translates the scientific community's discovery loop into structured evaluation-driven scaling">
+  <figcaption><b>Figure 4.</b> SimpleTES mirrors the scientific community's discovery loop: $C$ maintains independent lines of inquiry, $L$ carries promising lines forward, $K$ compares local candidates, and $\Phi$ selectively reuses evaluated history. Adapted from Figure 1a of the paper.</figcaption>
 </figure>
 
 The total budget is roughly $C \times L \times K$ evaluations. The figure below traces a small example ($C{=}3$, $L{=}5$, $K{=}4$): three trajectories, each refined over five steps, each step branching into four candidates of which one survives.
+
+In addition, $\Phi$ selectively composes useful proposals, evaluator feedback, and failure information into the next prompt. This keeps the loop cumulative without forcing every trajectory to ingest the full search history.
 
 <figure class="d-small">
   <img src="{{ '/images/blog/simpletes/CLK-illustration.png' | relative_url }}" alt="C=3, L=5, K=4 illustration of the SimpleTES search tree">
   <figcaption><b>Figure 5.</b> A concrete run with $C{=}3$ trajectories, $L{=}5$ refinement steps, and $K{=}4$ local samples per step. Filled nodes are the selected candidates.</figcaption>
 </figure>
 
-We keep the framework deliberately succinct, broad enough to surpass prior evolution-based systems, yet narrow enough to be studied in a principled way. In fact, three axes are the **minimal sufficient** set for how the evaluation-driven loop scales: drop any one and results fall off sharply, keep all three and the simple system is already enough.
+We keep the framework deliberately succinct, broad enough to surpass prior evolution-based systems, yet narrow enough to be studied in a principled way. In fact, three axes are the **minimal sufficient** set for allocating evaluator-query budget as the evaluation-driven loop scales: drop any one and results fall off sharply, keep all three and the simple system is already enough. $\Phi$ complements these axes by controlling information reuse rather than adding another multiplicative budget axis.
 
 For the technically curious, we defer the implementation details, including the context composer $\Phi$ and why each axis is necessary, to the [appendix](#implementation-details).
 
@@ -140,12 +148,7 @@ Let's start with two problems that prior evolution-based systems have also been 
   <figcaption><b>Figure 7.</b> The TriMul kernel: SimpleTES against prior methods across accelerators.</figcaption>
 </figure>
 
-These are not isolated wins. Using only the open-source gpt-oss-120b model (5.1B activated parameters, comfortably served on a single 80GB GPU), SimpleTES is state of the art on **20 out of 21 open-ended problems in six domains**, outperforming human experts and evolution-based systems that rely on frontier closed models or model ensembles. A few scientific discoveries are highlighted in the [case studies](#case-studies).
-
-<figure class="d-wide">
-  <img src="{{ '/images/blog/simpletes/2-results.png' | relative_url }}" alt="Full results table across six domains">
-  <figcaption><b>Figure 8.</b> Full results across six domains. For each problem we report the previous best (and the model behind it) versus SimpleTES.</figcaption>
-</figure>
+These are not isolated wins. Using only the open-source gpt-oss-120b model (5.1B activated parameters, comfortably served on a single 80GB GPU), SimpleTES is state of the art on **28 open-ended problems across five broad scientific domains**, outperforming human experts and evolution-based systems that rely on frontier closed models or model ensembles. Figure 1 gives the visual overview; the [case studies](#case-studies) return to several discoveries in more detail.
 
 ## Training for discovery
 
@@ -157,9 +160,11 @@ Discovery is **long-horizon**. An early attempt may score poorly yet contain exa
   <b>Our objective.</b> We want the model to learn not to maximize the score of each individual attempt, but to make the moves that lead to the best <b>final</b> discovery, treating a low-scoring early attempt as a valuable stepping stone and learning how evaluator feedback should steer the whole trajectory.
 </div>
 
+Here “final” refers to the best discovery reached by the trajectory as a whole, rather than the reward attached to the current proposal. Credit can therefore flow back through a low-scoring stepping stone if it helped the search reach a stronger result later.
+
 The one thing we change is how the reward is used. Instead of scoring an attempt by its own, often misleading, evaluation, we score it by the **final** outcome of the trajectory it belongs to. An early attempt is encouraged as long as it inspired strong subsequent attempts, even when it scores low on its own. In this sense the signal stays unbiased toward the actual goal: an attempt is rewarded for the discovery it ultimately leads to, not for how good it looks in the moment.
 
-In terms of the training algorithm and paradigm, nothing exotic is needed: we resort to standard reward fine-tuning. We keep the trajectories that reach the best final results and fine-tune the model on the attempts along them, minimizing a weighted likelihood
+In terms of the training algorithm and paradigm, nothing exotic is needed: we resort to standard RLVR optimization in a trajectory-level formulation. We keep the trajectories that reach the best final results and fine-tune the model on the attempts along them, minimizing a weighted likelihood
 
 $$
 \mathcal{L}(\theta) = -\,\mathbb{E}_{(x,\hat{y},w)\sim\mathcal{D}}\left[\, w \cdot \sum_{i=1}^{|\hat{y}|} \log \pi_\theta\!\left(\hat{y}_i \mid x,\, \hat{y}_{<i}\right) \right],
@@ -171,11 +176,11 @@ We do this iteratively. The fine-tuned model rolls out a fresh round of search, 
 
 ### Training results
 
-Training with four math tasks and evaluating on all eight, the effect is striking: it shifts the *entire* final-score distribution upward, which matters because in discovery the maximum, not the mean, is what counts. On the sum-difference problem, training found a new state of the art (1.1440 → 1.1449) that the untrained model missed even under aggressive loop scaling. Gains hold on both in-distribution and out-of-distribution problems.
+Training with four math tasks and evaluating on all eight, the effect is striking: it shifts the *entire* final-score distribution upward, which matters because in discovery the maximum, not the mean, is what counts. On the sum-difference problem, training found a new state of the art (1.143975 → 1.144887) that the untrained model missed even under aggressive loop scaling. Gains hold on both in-distribution and out-of-distribution problems. In particular, the improved result appears on a held-out task, supporting the claim that the model learns a transferable search behavior rather than only memorizing the training problems.
 
 <figure class="d-wide">
   <img src="{{ '/images/blog/simpletes/training.png' | relative_url }}" alt="Relative gains from training across ID and OOD tasks">
-  <figcaption><b>Figure 9.</b> Relative gains over gpt-oss-120b for the Top 10%, 25%, 50%, and 75% chains over training, for ID (first row) and OOD (second row) tasks.</figcaption>
+  <figcaption><b>Figure 8.</b> Relative gains over gpt-oss-120b for the Top 10%, 25%, 50%, and 75% chains over training, for ID (first row) and OOD (second row) tasks.</figcaption>
 </figure>
 
 We read these results as a proof of concept rather than a finished recipe. What is encouraging is that training reaches solutions pure loop-scaling does not, which suggests the model can internalize something about the *shape* of evaluation-driven search, not just memorize good answers. The gains also transfer to out-of-distribution problems, hinting that what is learned is a discovery behavior rather than a per-task trick. We think a principled training objective for scientific discovery is one of the most promising open directions.
@@ -185,6 +190,10 @@ We read these results as a proof of concept rather than a finished recipe. What 
 <!-- ### How much compute do you need?
 
 A natural question is how to split a fixed budget across $C \times L \times K$. The Matthew effect gives the rule of thumb: long single chains and large local samples make early winners hoard the budget, so once each chain is deep enough, extra compute pays off most as more parallel trajectories $C$. The heatmaps over $(L, K)$ confirm a broad sweet spot rather than a knife-edge, which is why SimpleTES stays strong even under modest budgets. -->
+
+### How should the budget be split?
+
+A fixed product $C \times L \times K$ can still produce very different searches. The ablations suggest that there is no universally optimal split: mathematical construction problems often benefit more from independent exploration $C$, while kernel optimization benefits more from refinement depth $L$; $K$ is most useful at a moderate scale, where it protects each step from a poor local choice without consuming most of the budget on near-duplicate candidates. The practical lesson is to keep all three axes active, then tune the emphasis to the evaluator landscape.
 
 ### Efficiency: keeping the whole system busy
 
@@ -202,7 +211,7 @@ In kernel optimization the gap is far wider, because the evaluator is an empiric
 
 <figure class="d-wide">
   <img src="{{ '/images/blog/simpletes/kernel-hacking.png' | relative_url }}" alt="Four reward-hacking strategies in kernel optimization, with code examples">
-  <figcaption><b>Figure 10.</b> Four reward-hacking strategies in kernel optimization: caching across runs, timer manipulation, baseline corruption, and reuse of autotuning's precomputed result.</figcaption>
+  <figcaption><b>Figure 9.</b> Four reward-hacking strategies in kernel optimization: caching across runs, timer manipulation, baseline corruption, and reuse of autotuning's precomputed result.</figcaption>
 </figure>
 
 What is striking is that the model finds all of this while blind to the evaluator's source code. For now, closing the surrogate-to-golden gap still leans on humans patching loopholes round after round. Building evaluators that stay aligned with the true objective and detect such hacking automatically is, we think, one of the most important open problems for evaluation-driven discovery.
@@ -218,8 +227,8 @@ We have leaned on open models to make the scaling argument cleanly, but the real
 ## Takeaways
 
 - **Scaling up the loop is a real axis.** Counter to the instinct to scale *down* evaluation queries, scaling the evaluation-driven loop up brings gains that scaling model capacity alone does not.
-- **Three axes, minimal and sufficient.** Parallel exploration, sequential refinement, and local selection are each necessary and jointly enough.
-- **Training for discovery is wide open.** Crediting stepping stones by their final outcome is a promising, principled direction.
+- **Three axes, minimal and sufficient.** Parallel exploration, sequential refinement, and local selection are each necessary and jointly enough. They allocate evaluator-query budget; $\Phi$ separately controls which evaluated histories are reused.
+- **Training for discovery is wide open.** Crediting stepping stones by their final outcome is a promising, principled direction. The held-out gains make trajectory-level post-training especially promising.
 
 
 
@@ -236,7 +245,7 @@ The overview in the main text covers the core scaling dimensions of SimpleTES. B
 
 ### Case studies
 
-Beyond the two headline examples above, two more applied discoveries make the framework concrete.
+The opening overview summarizes the breadth of the results. Here we return to several discoveries in more detail, using the dynamic visualizations to show what the resulting solutions actually do.
 
 <figure class="d-mid">
   <img src="{{ '/images/blog/simpletes/quantum1.gif' | relative_url }}" alt="SimpleTES discovering quantum circuit compilation policies">
@@ -244,16 +253,25 @@ Beyond the two headline examples above, two more applied discoveries make the fr
 </figure>
 
 <figure class="d-mid">
+  <img src="{{ '/images/blog/simpletes/orbital.gif' | relative_url }}" alt="SimpleTES optimizing a deep-space trajectory">
+  <figcaption><b>Astronomy: deep-space trajectory design.</b> SimpleTES discovers trajectories with lower propulsive cost across all five launch windows, improving the previous best by <b>2.1%–23.1%</b>. The search also produces a prospective Jupiter trajectory rather than merely reproducing a known mission design.</figcaption>
+</figure>
+
+<figure class="d-mid">
   <img src="{{ '/images/blog/simpletes/lasso.gif' | relative_url }}" alt="SimpleTES reimplementing a faster lasso-path solver">
   <figcaption><b>Algorithms for science.</b> SimpleTES reimplements the lasso-path solver <b>2.17× faster</b> than glmnet, the gold-standard solver the community has optimized for decades.</figcaption>
 </figure>
 
+**Biology: whole-brain neural-activity prediction.** On ZAPBench, SimpleTES discovers a predictor with **8.5% lower error**. This is an important complement to the optimization examples above: the same search structure can improve a scientific predictive model, not only a mathematical construction or a piece of systems code.
+
+**AI foundations: scaling-law discovery.** SimpleTES also searches for symbolic laws that extrapolate from small training runs to larger ones. Across four SLDBench tasks, it reaches an average extrapolation $R^2$ of **0.674**, compared with **0.572** for the strongest baseline, SLDAgent with GPT-5. This closes the loop conceptually: structured scaling can itself discover better laws for predicting how models scale.
+
 ## Citation
 
 ```bibtex
-@article{ye2026evaluation,
-  title={Evaluation-driven Scaling for Scientific Discovery},
-  author={Ye, Haotian and Lin, Haowei and Tang, Jingyi and Luo, Yizhen and Yang, Caiyin and Su, Chang and Thapa, Rahul and Yang, Rui and Liu, Ruihua and Li, Zeyu and others},
+@article{ye2026structured,
+  title={Structured Scaling of AI Discovery Across Diverse Scientific Domains},
+  author={Ye, Haotian and Lin, Haowei and Tang, Jingyi and Luo, Yizhen and Thapa, Rahul and others},
   journal={arXiv preprint arXiv:2604.19341},
   year={2026}
 }
