@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 <p id="about">
-I am a <a href="https://www.cs.stanford.edu/">Stanford CS</a> Ph.D. candidate, co-advised by <a href="https://www.james-zou.com/">James Zou</a> and <a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a>. I received my B.S. in Math and CS at Yuanpei College, <a href="https://english.pku.edu.cn/">Peking University</a>, co-advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a>. During my undergrad, I was fortunate to work with <a href="https://jsteinhardt.stat.berkeley.edu/">Jacob Steinhardt</a> and <a href="https://simonshaoleidu.com/">Simon S. Du</a> as a visiting researcher. I also collaborated with <a href="https://mingyuliu.net/">Ming-Yu Liu</a> as an intern in <a href="https://www.nvidia.com/en-us/ai/cosmos/">NVIDIA Cosmos</a>, and <a href="https://felixyu.org/">Felix Yu</a> in <a href="https://deepmind.google/">Google Deepmind</a>.</p>
+I am a final year <a href="https://www.cs.stanford.edu/">Stanford CS</a> Ph.D. candidate, co-advised by <a href="https://www.james-zou.com/">James Zou</a> and <a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a>. I received my B.S. in Math and CS at Yuanpei College, <a href="https://english.pku.edu.cn/">Peking University</a>, co-advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a>. During my undergrad, I was fortunate to work with <a href="https://jsteinhardt.stat.berkeley.edu/">Jacob Steinhardt</a> and <a href="https://simonshaoleidu.com/">Simon S. Du</a> as a visiting researcher. I also collaborated with <a href="https://mingyuliu.net/">Ming-Yu Liu</a> as an intern in <a href="https://www.nvidia.com/en-us/ai/cosmos/">NVIDIA Cosmos</a>, and <a href="https://felixyu.org/">Felix Yu</a> in <a href="https://deepmind.google/">Google Deepmind</a>.</p>
 <!-- <h2 id="researchinterests">Research Interest</h2> -->
 <!-- <p> -->
-My Ph.D. research aims to advance model capabilities for open problems through post-training and inference-time algorithm design. Specifically,
+My Ph.D. research aims to advance model capabilities for auto-research through algorithm design. Specifically,
 
 - How do we continuously improve them via post-training, even at superhuman levels?
 - How do we scale test-time compute effectively and efficiently?
@@ -22,7 +22,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <!-- </p> -->
 
 <h2 id="news">News</h2>
-- (June–Aug. 2026) I’m giving a series of talks on SimpleTES. Please check out our [blog](https://haotianye.com/blog/simpletes/) for our thoughts, and let me know if you are interested in the work!
+- (May–Sept. 2026) I’m giving a series of talks on SimpleTES. Please check out our [blog](https://haotianye.com/blog/simpletes/) for our thoughts, and let me know if you are interested in the work!
 - (May 2026) Check out [SimpleTES](https://www.wq-will.com/simpletes), our new work on strategically scaling evaluation-driven discovery loops — achieving state-of-the-art on 21 problems across six domains with open-source models. See [paper](https://arxiv.org/abs/2604.19341), [code](https://github.com/wq-will/SimpleTES), and [X](https://x.com/haotian_yeee/status/2056782234192166926).
 - (Apr. 2026) I passed my Ph.D. qualifying exam at Stanford!
 - (Feb. 2026) [InfoTok](https://arxiv.org/abs/2512.16975) (<font color="#DC143C">Oral</font>) and [Scaling Law Discovery](https://linhaowei1.github.io/scaling_law_discovery/) accepted by ICLR 2026. See you in Rio de Janeiro!
@@ -45,7 +45,7 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <div class="pub-item">
 <div class="pub-left">
-<abbr class="badge">Preprint</abbr>
+<abbr class="badge">In submission</abbr>
 <a href="/images/papers/simpletes.gif" target="_blank"><img src="/images/papers/simpletes.gif" alt="SimpleTES"></a>
 </div>
 <div class="pub-right">
@@ -190,6 +190,9 @@ Feel free to reach out if you are interested in my research or simply want to ch
 
 <h2 id="talks">Invited Talks</h2>
 
+- [AI2](https://allenai.org/), Sept. 2026
+<br/>*SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops*
+
 - [StepFun AI](https://stepfun.ai/), Aug. 2026
 <br/>*SimpleTES: A General Framework for Strategically Scaling Evaluation-Driven Discovery Loops*
 
@@ -228,7 +231,8 @@ Feel free to reach out if you are interested in my research or simply want to ch
 <br/>*Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective*
 
 <h2 id="services">Professional Services</h2>
-- **Reviewer**: NeurIPS (2022-2025), ICLR (2024-2026), ICML (2024-2025), AISTATS (2023, 2025, *Top Reviewer*), ICCV (2025), EMNLP (2022)
+- **Reviewer**: NeurIPS (2022-2025), ICLR (2024-2027), ICML (2024-2025), AISTATS (2023, 2025, *Top Reviewer*), ICCV (2025), EMNLP (2022)
+- **Teaching**: CS230 Deep Learning (Fall 2026), CS229 Machine Learning (Summer 2026)
 
 <h2 id="awards">Selected Awards</h2>
 - Weiming Scholar of Peking University (1%), 2023
